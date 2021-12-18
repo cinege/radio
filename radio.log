@@ -1,0 +1,3164 @@
+03.21 07:58:42 elindult
+03.21 07:58:42 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+122
+03.21 08:00:46 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.21 08:00:49 started http://stream.klubradio.hu:8080/bpstream
+16
+03.21 08:01:03 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.21 08:01:06 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+24
+03.21 08:01:25 long push
+03.21 08:01:25 Shutdown signal eszlelve
+03.21 08:09:15 elindult
+03.21 08:09:15 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+57
+03.21 08:10:14 starting radio: http://icestreaming.rai.it/4.mp3
+03.21 08:10:17 started http://icestreaming.rai.it/4.mp3
+9
+03.21 08:10:22 long push
+03.21 08:10:22 Shutdown signal eszlelve
+03.21 08:20:49 elindult
+03.21 08:20:49 starting radio: http://icestreaming.rai.it/4.mp3
+161
+03.21 08:23:30 Shutdown signal
+03.21 08:32:09 elindult
+03.21 08:32:09 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+521
+03.21 08:40:52 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.21 08:40:55 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+14
+03.21 08:41:06 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.21 08:41:09 started http://stream.klubradio.hu:8080/bpstream
+9
+03.21 08:41:13 Shutdown signal
+03.21 08:41:13 cleanup made
+03.21 08:47:34 elindult
+03.21 08:47:34 starting radio: http://stream.klubradio.hu:8080/bpstream
+178
+03.21 08:50:35 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.21 08:50:37 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+17
+03.21 08:50:50 Shutdown signal
+03.21 08:50:50 cleanup made
+03.21 08:56:14 elindult
+03.21 08:56:14 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+332
+03.21 09:01:48 starting radio: http://icestreaming.rai.it/4.mp3
+03.21 09:01:51 started http://icestreaming.rai.it/4.mp3
+7
+03.21 09:01:54 Shutdown signal
+03.21 09:01:54 cleanup made
+03.21 09:01:56 radio killed
+03.21 09:07:47 elindult
+03.21 09:07:47 starting radio: http://icestreaming.rai.it/4.mp3
+03.21 09:08:21 elindult
+03.21 09:08:21 starting radio: http://icestreaming.rai.it/4.mp3
+82
+03.21 09:09:46 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.21 09:09:49 started http://www.klasszikradio.hu/klasszik.mp3
+8
+03.21 09:09:52 Shutdown signal
+03.21 09:09:52 cleanup made
+03.21 09:09:54 radio killed
+03.21 09:09:54 shutdown signal emitted
+03.21 09:15:26 elindult
+03.21 09:15:26 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.21 09:25:13 elindult
+03.21 09:25:13 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+80
+03.21 09:26:36 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.21 09:26:38 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+12
+03.21 09:26:48 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.21 09:26:51 started http://stream.klubradio.hu:8080/bpstream
+7
+03.21 09:26:54 Shutdown signal
+03.21 09:26:54 cleanup made
+03.21 09:26:56 radio killed
+03.21 09:26:56 Traceback (most recent call last):
+  File "/home/pi/radio/radio.py", line 108, in <module>
+    p = subprocess.Popen(['shutdown','-h','now'])
+  File "/usr/lib/python2.7/subprocess.py", line 390, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1024, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+03.21 09:26:56 shutdown signal emitted
+03.21 09:32:04 elindult
+03.21 09:32:04 starting radio: http://stream.klubradio.hu:8080/bpstream
+85
+03.21 09:33:32 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.21 09:33:34 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+6
+03.21 09:33:36 Shutdown signal
+03.21 09:33:36 cleanup made
+03.21 09:33:39 radio killed
+03.21 09:33:39 shutdown signal emitted
+03.21 09:34:00 elindult
+03.21 09:34:00 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+12
+03.21 09:34:14 starting radio: http://icestreaming.rai.it/4.mp3
+03.21 09:34:17 started http://icestreaming.rai.it/4.mp3
+262
+03.21 09:38:36 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.21 09:38:39 started http://www.klasszikradio.hu/klasszik.mp3
+59
+03.21 09:39:36 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.21 09:39:39 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+570
+03.21 09:49:05 Shutdown signal
+03.21 09:49:05 cleanup made
+03.21 09:49:07 radio killed
+03.21 09:49:07 shutdown signal emitted
+03.21 09:49:28 elindult
+03.21 09:49:28 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+4511
+03.21 11:04:42 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.21 11:04:44 started http://stream.klubradio.hu:8080/bpstream
+12
+03.21 11:04:54 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.21 11:04:57 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+12
+03.21 11:05:07 starting radio: http://icestreaming.rai.it/4.mp3
+03.21 11:05:10 started http://icestreaming.rai.it/4.mp3
+20
+03.21 11:05:28 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.21 11:05:30 started http://www.klasszikradio.hu/klasszik.mp3
+46
+03.21 11:06:14 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.21 11:06:16 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+17
+03.21 11:06:32 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.21 11:06:34 started http://stream.klubradio.hu:8080/bpstream
+3620
+03.21 12:06:49 Shutdown signal
+03.21 12:06:49 cleanup made
+03.21 12:06:52 radio killed
+03.21 12:06:52 shutdown signal emitted
+03.22 07:04:53 elindult
+03.22 07:04:53 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+574
+03.22 07:14:29 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.22 07:14:33 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+12
+03.22 07:14:40 Shutdown signal
+03.22 07:14:40 cleanup made
+03.22 07:14:42 radio killed
+03.22 07:14:42 shutdown signal emitted
+03.22 07:15:04 elindult
+03.22 07:15:04 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+7
+03.22 07:15:13 starting radio: http://icestreaming.rai.it/4.mp3
+03.22 07:15:16 started http://icestreaming.rai.it/4.mp3
+57
+03.22 07:16:11 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.22 07:16:14 started http://www.klasszikradio.hu/klasszik.mp3
+13
+03.22 07:16:24 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.22 07:16:27 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+27
+03.22 07:16:51 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.22 07:16:55 started http://stream.klubradio.hu:8080/bpstream
+2665
+03.22 08:01:15 Shutdown signal
+03.22 08:01:15 cleanup made
+03.22 08:01:17 radio killed
+03.22 08:01:17 shutdown signal emitted
+03.22 12:41:21 elindult
+03.22 12:41:21 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+122
+03.22 12:43:25 starting radio: http://icestreaming.rai.it/4.mp3
+03.22 12:43:28 started http://icestreaming.rai.it/4.mp3
+12
+03.22 12:43:37 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.22 12:43:41 started http://www.klasszikradio.hu/klasszik.mp3
+13
+03.22 12:43:51 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.22 12:43:54 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+14
+03.22 12:44:06 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.22 12:44:09 started http://stream.klubradio.hu:8080/bpstream
+14
+03.22 12:44:21 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+03.22 12:44:24 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+25
+03.22 12:44:46 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.22 12:44:50 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+29
+03.22 12:45:16 starting radio: http://icestreaming.rai.it/4.mp3
+03.22 12:45:19 started http://icestreaming.rai.it/4.mp3
+17
+03.22 12:45:33 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.22 12:45:36 started http://www.klasszikradio.hu/klasszik.mp3
+1958
+03.22 13:18:10 Shutdown signal
+03.22 13:18:10 cleanup made
+03.22 13:18:12 radio killed
+03.22 13:18:12 shutdown signal emitted
+03.22 13:18:33 elindult
+03.22 13:18:33 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+15
+03.22 13:18:51 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.23 07:08:29 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+64196
+03.23 07:08:48 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.23 07:08:51 started http://stream.klubradio.hu:8080/bpstream
+957
+03.23 07:24:46 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+03.23 07:24:49 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+17
+03.23 07:25:04 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.23 07:25:07 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+19
+03.23 07:25:23 starting radio: http://icestreaming.rai.it/4.mp3
+03.23 07:25:26 started http://icestreaming.rai.it/4.mp3
+9
+03.23 07:25:32 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.23 07:25:35 started http://www.klasszikradio.hu/klasszik.mp3
+1661
+03.23 07:53:14 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.23 07:53:17 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+117
+03.23 07:55:11 starting radio: http://stream.klubradio.hu:8080/bpstream
+03.23 07:55:14 started http://stream.klubradio.hu:8080/bpstream
+1426
+03.23 08:18:56 Shutdown signal
+03.23 08:18:56 cleanup made
+03.23 08:18:58 radio killed
+03.23 08:18:58 shutdown signal emitted
+03.23 08:19:19 elindult
+03.23 08:19:19 starting radio: http://stream.klubradio.hu:8080/bpstream
+22866
+03.23 14:40:28 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+03.23 14:40:31 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+22
+03.23 14:40:48 Shutdown signal
+03.23 14:40:48 cleanup made
+03.23 14:40:50 radio killed
+03.23 14:40:50 shutdown signal emitted
+03.23 14:41:12 elindult
+03.23 14:41:12 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
+60102
+03.24 07:22:56 starting radio: http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+03.24 07:22:59 started http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+28
+03.24 07:23:25 starting radio: http://icestreaming.rai.it/4.mp3
+03.24 07:23:28 started http://icestreaming.rai.it/4.mp3
+10
+03.24 07:23:36 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+03.24 07:23:39 started http://www.klasszikradio.hu/klasszik.mp3
+1987
+03.24 07:56:43 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+03.24 07:56:47 started https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+233
+03.24 08:00:35 Shutdown signal
+03.24 08:00:35 cleanup made
+03.24 08:00:37 radio killed
+03.24 08:00:37 shutdown signal emitted
+03.24 08:00:58 elindult
+03.24 08:00:58 starting radio: https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+44764
+03.24 20:27:03 Shutdown signal
+03.24 20:27:03 cleanup made
+03.24 20:27:05 radio killed
+03.24 20:27:05 shutdown signal emitted
+03.26 12:42:16 elindult
+03.26 12:42:16 starting radio: http://www.klasszikradio.hu/klasszik.mp3
+379
+03.26 12:48:36 Shutdown signal
+03.26 12:48:36 cleanup made
+03.26 12:48:38 radio killed
+03.26 12:48:38 shutdown signal emitted
+03.27 11:30:35 elindult
+03.27 11:30:35 starting radio: BBC-3
+2069
+03.27 12:05:07 starting radio: BBC-4
+03.27 12:05:10 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+3841
+03.27 13:09:07 Shutdown signal
+03.27 13:09:07 cleanup made
+03.27 13:09:09 radio killed
+03.27 13:09:09 shutdown signal emitted
+03.27 13:09:31 elindult
+03.27 13:09:31 starting radio: BBC-4
+72525
+03.28 09:18:18 starting radio: RAI-3
+03.28 09:18:21 started RAI-3,,http://icestreaming.rai.it/4.mp3
+18
+03.28 09:18:37 starting radio: Klasszik
+03.28 09:18:40 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+53
+03.28 09:19:31 starting radio: Dlfunk-Kultur
+03.28 09:19:34 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+12
+03.28 09:19:43 starting radio: Klubradio
+03.28 09:19:46 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+15692
+03.28 13:41:13 Shutdown signal
+03.28 13:41:13 cleanup made
+03.28 13:41:15 radio killed
+03.28 13:41:15 shutdown signal emitted
+03.28 13:41:37 elindult
+03.28 13:41:37 starting radio: Klubradio
+27558
+03.29 21:20:57 starting radio: BBC-2
+03.29 21:21:01 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+15
+03.29 21:21:13 starting radio: BBC-3
+03.29 21:21:16 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+7797
+03.29 23:31:08 Shutdown signal
+03.29 23:31:08 cleanup made
+03.29 23:31:10 radio killed
+03.29 23:31:10 shutdown signal emitted
+03.29 23:31:32 elindult
+03.29 23:31:32 starting radio: BBC-3
+65462
+03.30 17:42:34 Shutdown signal
+03.30 17:42:34 cleanup made
+03.30 17:42:36 radio killed
+03.30 17:42:36 shutdown signal emitted
+03.30 17:42:59 elindult
+03.30 17:42:59 starting radio: BBC-3
+8877
+03.30 20:10:57 Shutdown signal
+03.30 20:10:57 cleanup made
+03.30 20:10:59 radio killed
+03.30 20:10:59 shutdown signal emitted
+03.30 20:11:20 elindult
+03.30 20:11:20 starting radio: BBC-3
+43913
+03.31 08:23:14 Shutdown signal
+03.31 08:23:14 cleanup made
+03.31 08:23:16 radio killed
+03.31 08:23:16 shutdown signal emitted
+03.31 08:23:37 elindult
+03.31 08:23:37 starting radio: BBC-3
+1020
+04.01 08:40:37 Shutdown signal
+04.01 08:40:37 cleanup made
+04.01 08:40:39 radio killed
+04.01 08:40:39 shutdown signal emitted
+04.01 08:41:01 elindult
+04.01 08:41:01 starting radio: BBC-3
+37269
+04.01 19:02:10 Shutdown signal
+04.01 19:02:10 cleanup made
+04.01 19:02:12 radio killed
+04.01 19:02:12 shutdown signal emitted
+04.01 19:02:34 elindult
+04.01 19:02:34 starting radio: BBC-3
+11
+04.01 19:02:48 starting radio: BBC-4
+04.01 19:02:51 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+46349
+04.02 07:55:17 starting radio: RAI-3
+04.02 07:55:20 started RAI-3,,http://icestreaming.rai.it/4.mp3
+9
+04.02 07:55:27 starting radio: Klasszik
+04.02 07:55:30 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+04.02 07:55:37 starting radio: Dlfunk-Kultur
+04.02 07:55:40 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+16
+04.02 07:55:53 starting radio: Klubradio
+04.02 07:55:56 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+4902
+04.02 09:17:35 starting radio: BBC-2
+04.02 09:17:39 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+154
+04.02 09:20:10 starting radio: BBC-3
+04.02 09:20:13 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+4126
+04.02 10:28:54 Shutdown signal
+04.02 10:28:54 cleanup made
+04.02 10:28:56 radio killed
+04.02 10:28:56 shutdown signal emitted
+04.02 10:29:18 elindult
+04.02 10:29:18 starting radio: BBC-3
+8323
+04.02 12:48:02 Shutdown signal
+04.02 12:48:02 cleanup made
+04.02 12:48:04 radio killed
+04.02 12:48:04 shutdown signal emitted
+04.02 12:48:25 elindult
+04.02 12:48:25 starting radio: BBC-3
+76215
+04.03 09:58:40 Shutdown signal
+04.03 09:58:40 cleanup made
+04.03 09:58:42 radio killed
+04.03 09:58:42 shutdown signal emitted
+04.03 09:59:04 elindult
+04.03 09:59:04 starting radio: BBC-3
+78223
+04.04 07:42:48 Shutdown signal
+04.04 07:42:48 cleanup made
+04.04 07:42:50 radio killed
+04.04 07:42:50 shutdown signal emitted
+04.04 07:43:11 elindult
+04.04 07:43:11 starting radio: BBC-3
+190
+04.04 07:46:24 starting radio: BBC-4
+04.04 07:46:27 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+31
+04.04 07:46:55 starting radio: RAI-3
+04.04 07:46:59 started RAI-3,,http://icestreaming.rai.it/4.mp3
+14
+04.04 07:47:10 starting radio: Klasszik
+04.04 07:47:13 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+13
+04.04 07:47:24 starting radio: Dlfunk-Kultur
+04.04 07:47:27 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+8
+04.04 07:47:33 starting radio: Klubradio
+04.04 07:47:36 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1205
+04.04 08:07:37 Shutdown signal
+04.04 08:07:37 cleanup made
+04.04 08:07:39 radio killed
+04.04 08:07:39 shutdown signal emitted
+04.04 08:08:00 elindult
+04.04 08:08:00 starting radio: Klubradio
+2615
+04.04 08:51:36 Shutdown signal
+04.04 08:51:36 cleanup made
+04.04 08:51:38 radio killed
+04.04 08:51:38 shutdown signal emitted
+04.04 08:51:59 elindult
+04.04 08:51:59 starting radio: Klubradio
+84657
+04.06 08:22:56 Shutdown signal
+04.06 08:22:56 cleanup made
+04.06 08:22:58 radio killed
+04.06 08:22:58 shutdown signal emitted
+04.06 08:23:20 elindult
+04.06 08:23:20 starting radio: Klubradio
+85538
+04.07 08:08:58 Shutdown signal
+04.07 08:08:58 cleanup made
+04.07 08:09:00 radio killed
+04.07 08:09:00 shutdown signal emitted
+04.07 08:09:22 elindult
+04.07 08:09:22 starting radio: Klubradio
+20932
+04.08 13:58:14 Shutdown signal
+04.08 13:58:14 cleanup made
+04.08 13:58:16 radio killed
+04.08 13:58:16 shutdown signal emitted
+04.08 13:58:37 elindult
+04.08 13:58:37 starting radio: Klubradio
+12869
+04.08 17:33:07 Shutdown signal
+04.08 17:33:07 cleanup made
+04.08 17:33:09 radio killed
+04.08 17:33:09 shutdown signal emitted
+04.08 17:33:31 elindult
+04.08 17:33:31 starting radio: Klubradio
+51375
+04.09 07:49:49 starting radio: BBC-2
+04.09 07:49:52 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+12
+04.09 07:50:01 starting radio: BBC-3
+04.09 07:50:04 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+881
+04.09 08:04:40 Shutdown signal
+04.09 08:04:40 cleanup made
+04.09 08:04:43 radio killed
+04.09 08:04:43 shutdown signal emitted
+04.09 08:05:04 elindult
+04.09 08:05:04 starting radio: BBC-3
+14808
+04.09 12:11:54 starting radio: BBC-4
+04.09 12:11:58 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+1278
+04.09 12:33:11 Shutdown signal
+04.09 12:33:11 cleanup made
+04.09 12:33:13 radio killed
+04.09 12:33:13 shutdown signal emitted
+04.09 12:33:34 elindult
+04.09 12:33:34 starting radio: BBC-4
+70141
+04.11 08:02:35 Shutdown signal
+04.11 08:02:35 cleanup made
+04.11 08:02:38 radio killed
+04.11 08:02:38 shutdown signal emitted
+04.11 08:02:59 elindult
+04.11 08:02:59 starting radio: BBC-4
+84454
+04.12 07:30:36 starting radio: RAI-3
+04.12 07:30:39 started RAI-3,,http://icestreaming.rai.it/4.mp3
+11
+04.12 07:30:47 starting radio: Klasszik
+04.12 07:30:50 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+43
+04.12 07:31:31 starting radio: Dlfunk-Kultur
+04.12 07:31:34 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+10
+04.12 07:31:41 starting radio: Klubradio
+04.12 07:31:44 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5129
+04.12 08:57:10 starting radio: BBC-2
+04.12 08:57:13 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+10
+04.12 08:57:20 starting radio: BBC-3
+04.12 08:57:24 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+3777
+04.12 10:00:16 Shutdown signal
+04.12 10:00:16 cleanup made
+04.12 10:00:18 radio killed
+04.12 10:00:18 shutdown signal emitted
+04.12 10:00:40 elindult
+04.12 10:00:40 starting radio: BBC-3
+17223
+04.12 14:47:43 Shutdown signal
+04.12 14:47:43 cleanup made
+04.12 14:47:45 radio killed
+04.12 14:47:45 shutdown signal emitted
+04.13 09:26:00 elindult
+04.13 09:26:00 starting radio: BBC-3
+8793
+04.13 11:52:34 Shutdown signal
+04.13 11:52:34 cleanup made
+04.13 11:52:36 radio killed
+04.13 11:52:36 shutdown signal emitted
+04.13 11:52:57 elindult
+04.13 11:52:57 starting radio: BBC-3
+32531
+04.13 20:55:09 Shutdown signal
+04.13 20:55:09 cleanup made
+04.13 20:55:11 radio killed
+04.13 20:55:11 shutdown signal emitted
+04.13 20:55:32 elindult
+04.13 20:55:32 starting radio: BBC-3
+37026
+04.14 07:12:41 starting radio: BBC-4
+04.14 07:12:44 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+726
+04.14 07:24:48 starting radio: RAI-3
+04.14 07:24:51 started RAI-3,,http://icestreaming.rai.it/4.mp3
+313
+04.14 07:30:01 starting radio: Klasszik
+04.14 07:30:04 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+13
+04.14 07:30:14 starting radio: Dlfunk-Kultur
+04.14 07:30:17 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+605
+04.14 07:40:17 Shutdown signal
+04.14 07:40:17 cleanup made
+04.14 07:40:19 radio killed
+04.14 07:40:19 shutdown signal emitted
+04.14 19:17:20 elindult
+04.14 19:17:20 starting radio: Dlfunk-Kultur
+42583
+04.15 07:07:05 starting radio: Klubradio
+04.15 07:07:08 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+645
+04.15 07:17:48 Shutdown signal
+04.15 07:17:48 cleanup made
+04.15 07:17:51 radio killed
+04.15 07:17:51 shutdown signal emitted
+04.15 07:18:11 elindult
+04.15 07:18:11 starting radio: Klubradio
+17798
+04.15 12:14:50 Shutdown signal
+04.15 12:14:50 cleanup made
+04.15 12:14:52 radio killed
+04.15 12:14:52 shutdown signal emitted
+04.15 12:15:13 elindult
+04.15 12:15:13 starting radio: Klubradio
+70122
+04.16 07:43:57 starting radio: BBC-2
+04.16 07:44:00 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+13
+04.16 07:44:10 starting radio: BBC-3
+04.16 07:44:14 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+2268
+04.16 08:21:57 Shutdown signal
+04.16 08:21:57 cleanup made
+04.16 08:21:59 radio killed
+04.16 08:21:59 shutdown signal emitted
+04.16 08:22:21 elindult
+04.16 08:22:21 starting radio: BBC-3
+14800
+04.16 12:29:02 Shutdown signal
+04.16 12:29:02 cleanup made
+04.16 12:29:04 radio killed
+04.16 12:29:04 shutdown signal emitted
+04.16 12:29:25 elindult
+04.16 12:29:25 starting radio: BBC-3
+5
+04.16 12:29:33 starting radio: BBC-4
+04.16 12:29:36 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+72144
+04.17 08:31:57 starting radio: RAI-3
+04.17 08:32:01 started RAI-3,,http://icestreaming.rai.it/4.mp3
+8
+04.17 08:32:06 starting radio: Klasszik
+04.17 08:32:09 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+04.17 08:32:14 starting radio: Dlfunk-Kultur
+04.17 08:32:17 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+9
+04.17 08:32:23 starting radio: Klubradio
+04.17 08:32:26 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+2173
+04.17 09:08:37 starting radio: BBC-2
+04.17 09:08:40 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+17
+04.17 09:08:55 starting radio: BBC-3
+04.17 09:08:58 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+5956
+04.17 10:48:09 Shutdown signal
+04.17 10:48:09 cleanup made
+04.17 10:48:11 radio killed
+04.17 10:48:11 shutdown signal emitted
+04.18 08:25:34 elindult
+04.18 08:25:34 starting radio: BBC-3
+15734
+04.18 12:47:51 starting radio: BBC-4
+04.18 12:47:54 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+1068
+04.18 13:05:39 starting radio: RAI-3
+04.18 13:05:42 started RAI-3,,http://icestreaming.rai.it/4.mp3
+34
+04.18 13:06:14 starting radio: Klasszik
+04.18 13:06:17 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+184
+04.18 13:09:16 Shutdown signal
+04.18 13:09:16 cleanup made
+04.18 13:09:18 radio killed
+04.18 13:09:18 shutdown signal emitted
+04.19 07:50:15 elindult
+04.19 07:50:15 starting radio: Klubradio
+13
+04.19 07:50:31 starting radio: BBC-2
+04.19 07:50:35 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+27050
+04.19 15:21:22 starting radio: BBC-3
+04.19 15:21:25 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+36
+04.19 15:21:58 starting radio: BBC-4
+04.19 15:22:01 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+16
+04.19 15:22:14 starting radio: RAI-3
+04.19 15:22:17 started RAI-3,,http://icestreaming.rai.it/4.mp3
+17
+04.19 15:22:32 starting radio: Klasszik
+04.19 15:22:35 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+52
+04.19 15:23:24 starting radio: Dlfunk-Kultur
+04.19 15:23:28 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+200
+04.19 15:26:45 starting radio: Klubradio
+04.19 15:26:48 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+20
+04.19 15:27:05 starting radio: BBC-2
+04.19 15:27:08 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+457
+04.19 15:34:43 starting radio: BBC-3
+04.19 15:34:46 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+211
+04.19 15:38:12 Shutdown signal
+04.19 15:38:12 cleanup made
+04.19 15:38:14 radio killed
+04.19 15:38:14 shutdown signal emitted
+04.19 15:38:35 elindult
+04.19 15:38:35 starting radio: BBC-3
+55342
+04.20 07:00:59 starting radio: BBC-4
+04.20 07:01:03 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+18
+04.20 07:01:18 starting radio: RAI-3
+04.20 07:01:21 started RAI-3,,http://icestreaming.rai.it/4.mp3
+7
+04.20 07:01:23 Shutdown signal
+04.20 07:01:23 cleanup made
+04.20 07:01:25 radio killed
+04.20 07:01:25 shutdown signal emitted
+04.20 07:01:47 elindult
+04.20 07:01:47 starting radio: RAI-3
+13
+04.20 07:02:03 starting radio: Klasszik
+04.20 07:02:06 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+159
+04.20 07:04:42 starting radio: Dlfunk-Kultur
+04.20 07:04:45 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+1042
+04.20 07:22:02 Shutdown signal
+04.20 07:22:02 cleanup made
+04.20 07:22:04 radio killed
+04.20 07:22:04 shutdown signal emitted
+04.20 07:22:24 elindult
+04.20 07:22:24 starting radio: Dlfunk-Kultur
+30277
+04.20 15:47:04 starting radio: Klubradio
+04.20 15:47:07 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+524
+04.20 15:55:46 Shutdown signal
+04.20 15:55:46 cleanup made
+04.20 15:55:48 radio killed
+04.20 15:55:48 shutdown signal emitted
+04.20 15:56:09 elindult
+04.20 15:56:09 starting radio: Klubradio
+6775
+04.20 17:49:04 Shutdown signal
+04.20 17:49:04 cleanup made
+04.20 17:49:06 radio killed
+04.20 17:49:06 shutdown signal emitted
+04.20 17:49:29 elindult
+04.20 17:49:29 starting radio: Klubradio
+48078
+04.21 07:10:47 Shutdown signal
+04.21 07:10:47 cleanup made
+04.21 07:10:49 radio killed
+04.21 07:10:49 shutdown signal emitted
+04.21 07:11:11 elindult
+04.21 07:11:11 starting radio: Klubradio
+22268
+04.21 13:22:19 Shutdown signal
+04.21 13:22:19 cleanup made
+04.21 13:22:21 radio killed
+04.21 13:22:21 shutdown signal emitted
+04.21 13:22:42 elindult
+04.21 13:22:42 starting radio: Klubradio
+70926
+04.22 09:04:49 Shutdown signal
+04.22 09:04:49 cleanup made
+04.22 09:04:51 radio killed
+04.22 09:04:51 shutdown signal emitted
+04.22 15:17:20 elindult
+04.22 15:17:20 starting radio: Klubradio
+15129
+04.22 19:29:30 Shutdown signal
+04.22 19:29:30 cleanup made
+04.22 19:29:32 radio killed
+04.22 19:29:32 shutdown signal emitted
+04.24 08:55:26 elindult
+04.24 08:55:26 starting radio: Klubradio
+15276
+04.24 13:10:05 starting radio: BBC-2
+04.24 13:10:08 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+14
+04.24 13:10:19 starting radio: BBC-3
+04.24 13:10:22 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+1755
+04.24 13:39:33 Shutdown signal
+04.24 13:39:33 cleanup made
+04.24 13:39:35 radio killed
+04.24 13:39:35 shutdown signal emitted
+04.24 13:39:56 elindult
+04.24 13:39:56 starting radio: BBC-3
+19328
+04.24 19:02:04 Shutdown signal
+04.24 19:02:04 cleanup made
+04.24 19:02:07 radio killed
+04.24 19:02:07 shutdown signal emitted
+04.24 19:02:28 elindult
+04.24 19:02:28 starting radio: BBC-3
+45889
+04.25 07:47:17 Shutdown signal
+04.25 07:47:17 cleanup made
+04.25 07:47:20 radio killed
+04.25 07:47:20 shutdown signal emitted
+04.25 07:47:41 elindult
+04.25 07:47:41 starting radio: BBC-3
+80948
+04.26 06:16:51 starting radio: BBC-4
+04.26 06:16:55 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+11
+04.26 06:17:03 starting radio: RAI-3
+04.26 06:17:06 started RAI-3,,http://icestreaming.rai.it/4.mp3
+14
+04.26 06:17:17 starting radio: Klasszik
+04.26 06:17:20 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+24
+04.26 06:17:42 starting radio: Dlfunk-Kultur
+04.26 06:17:45 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+9
+04.26 06:17:51 starting radio: Klubradio
+04.26 06:17:54 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5242
+04.26 07:45:11 Shutdown signal
+04.26 07:45:11 cleanup made
+04.26 07:45:13 radio killed
+04.26 07:45:13 shutdown signal emitted
+04.26 07:45:35 elindult
+04.26 07:45:35 starting radio: Klubradio
+85441
+04.27 07:29:36 Shutdown signal
+04.27 07:29:36 cleanup made
+04.27 07:29:38 radio killed
+04.27 07:29:38 shutdown signal emitted
+04.27 07:30:00 elindult
+04.27 07:30:00 starting radio: Klubradio
+33758
+04.27 16:52:38 Shutdown signal
+04.27 16:52:38 cleanup made
+04.27 16:52:40 radio killed
+04.27 16:52:40 shutdown signal emitted
+04.27 16:53:01 elindult
+04.27 16:53:01 starting radio: Klubradio
+54616
+04.28 08:03:17 Shutdown signal
+04.28 08:03:17 cleanup made
+04.28 08:03:19 radio killed
+04.28 08:03:19 shutdown signal emitted
+04.28 08:03:41 elindult
+04.28 08:03:41 starting radio: Klubradio
+44805
+04.28 20:30:26 Shutdown signal
+04.28 20:30:26 cleanup made
+04.28 20:30:28 radio killed
+04.28 20:30:28 shutdown signal emitted
+04.28 20:30:50 elindult
+04.28 20:30:50 starting radio: Klubradio
+44946
+04.29 08:59:56 Shutdown signal
+04.29 08:59:56 cleanup made
+04.29 08:59:58 radio killed
+04.29 08:59:58 shutdown signal emitted
+04.29 09:00:20 elindult
+04.29 09:00:20 starting radio: Klubradio
+83436
+04.30 08:10:56 Shutdown signal
+04.30 08:10:56 cleanup made
+04.30 08:10:58 radio killed
+04.30 08:10:58 shutdown signal emitted
+04.30 08:11:20 elindult
+04.30 08:11:20 starting radio: Klubradio
+15696
+04.30 12:32:57 Shutdown signal
+04.30 12:32:57 cleanup made
+04.30 12:32:59 radio killed
+04.30 12:32:59 shutdown signal emitted
+04.30 12:33:20 elindult
+04.30 12:33:20 starting radio: Klubradio
+28725
+04.30 20:32:05 Shutdown signal
+04.30 20:32:05 cleanup made
+04.30 20:32:07 radio killed
+04.30 20:32:07 shutdown signal emitted
+05.01 08:29:43 elindult
+05.01 08:29:43 starting radio: Klubradio
+21241
+05.02 14:23:46 starting radio: BBC-2
+05.02 14:23:49 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+10
+05.02 14:23:57 starting radio: BBC-3
+05.02 14:24:00 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+3481
+05.02 15:21:56 Shutdown signal
+05.02 15:21:56 cleanup made
+05.02 15:21:58 radio killed
+05.02 15:21:58 shutdown signal emitted
+05.02 15:22:20 elindult
+05.02 15:22:20 starting radio: BBC-3
+15891
+05.02 19:47:11 Shutdown signal
+05.02 19:47:11 cleanup made
+05.02 19:47:13 radio killed
+05.02 19:47:13 shutdown signal emitted
+05.02 19:47:34 elindult
+05.02 19:47:34 starting radio: BBC-3
+17
+05.02 19:47:54 starting radio: BBC-4
+05.03 06:27:52 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+43172
+05.03 07:47:26 starting radio: RAI-3
+05.03 07:47:29 started RAI-3,,http://icestreaming.rai.it/4.mp3
+160
+05.03 07:50:07 starting radio: Klasszik
+05.03 07:50:10 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+37
+05.03 07:50:42 Shutdown signal
+05.03 07:50:42 cleanup made
+05.03 07:50:44 radio killed
+05.03 07:50:44 shutdown signal emitted
+05.03 07:51:05 elindult
+05.03 07:51:05 starting radio: Klasszik
+80498
+05.04 06:12:46 starting radio: Dlfunk-Kultur
+05.04 06:12:49 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+860
+05.04 06:27:06 starting radio: Klubradio
+05.04 06:27:09 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+2160
+05.04 07:03:04 Shutdown signal
+05.04 07:03:04 cleanup made
+05.04 07:03:07 radio killed
+05.04 07:03:07 shutdown signal emitted
+05.04 07:03:28 elindult
+05.04 07:03:28 starting radio: Klubradio
+4110
+05.04 08:11:58 Shutdown signal
+05.04 08:11:58 cleanup made
+05.04 08:12:00 radio killed
+05.04 08:12:00 shutdown signal emitted
+05.04 08:12:22 elindult
+05.04 08:12:22 starting radio: Klubradio
+85318
+05.05 07:54:20 Shutdown signal
+05.05 07:54:20 cleanup made
+05.05 07:54:22 radio killed
+05.05 07:54:22 shutdown signal emitted
+05.05 07:54:42 elindult
+05.05 07:54:42 starting radio: Klubradio
+46083
+05.05 20:42:48 starting radio: BBC-2
+05.05 20:42:51 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+10
+05.05 20:42:58 starting radio: BBC-3
+05.05 20:43:02 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+361
+05.05 20:49:00 starting radio: BBC-4
+05.05 20:49:04 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+75
+05.05 20:50:13 Shutdown signal
+05.05 20:50:13 cleanup made
+05.05 20:50:16 radio killed
+05.05 20:50:16 shutdown signal emitted
+05.06 08:17:21 elindult
+05.06 08:17:21 starting radio: Klubradio
+50902
+05.06 22:25:44 Shutdown signal
+05.06 22:25:44 cleanup made
+05.06 22:25:46 radio killed
+05.06 22:25:46 shutdown signal emitted
+05.06 22:26:07 elindult
+05.06 22:26:07 starting radio: Klubradio
+32280
+05.07 07:24:07 Shutdown signal
+05.07 07:24:07 cleanup made
+05.07 07:24:09 radio killed
+05.07 07:24:09 shutdown signal emitted
+05.07 07:24:31 elindult
+05.07 07:24:31 starting radio: Klubradio
+43262
+05.07 19:25:35 starting radio: BBC-2
+05.07 19:25:38 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+10
+05.07 19:25:46 starting radio: BBC-3
+05.07 19:25:49 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+3257
+05.07 20:20:01 Shutdown signal
+05.07 20:20:01 cleanup made
+05.07 20:20:03 radio killed
+05.07 20:20:03 shutdown signal emitted
+05.07 20:20:23 elindult
+05.07 20:20:24 starting radio: BBC-3
+37679
+05.08 06:48:25 starting radio: BBC-4
+05.08 06:48:28 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+2636
+05.08 07:32:19 Shutdown signal
+05.08 07:32:19 cleanup made
+05.08 07:32:21 radio killed
+05.08 07:32:21 shutdown signal emitted
+05.08 07:32:43 elindult
+05.08 07:32:43 starting radio: BBC-4
+20468
+05.08 13:13:53 starting radio: RAI-3
+05.08 13:13:57 started RAI-3,,http://icestreaming.rai.it/4.mp3
+9
+05.08 13:14:03 starting radio: Klasszik
+05.08 13:14:06 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1699
+05.08 13:42:22 starting radio: Dlfunk-Kultur
+05.08 13:42:25 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+2637
+05.08 14:26:17 Shutdown signal
+05.08 14:26:17 cleanup made
+05.08 14:26:19 radio killed
+05.08 14:26:19 shutdown signal emitted
+05.08 14:26:41 elindult
+05.08 14:26:41 starting radio: Dlfunk-Kultur
+17484
+05.08 19:18:07 starting radio: Klubradio
+05.08 19:18:10 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+12
+05.08 19:18:20 starting radio: BBC-2
+05.08 19:18:23 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+602
+05.08 19:28:20 Shutdown signal
+05.08 19:28:20 cleanup made
+05.08 19:28:22 radio killed
+05.08 19:28:22 shutdown signal emitted
+05.08 19:28:43 elindult
+05.08 19:28:43 starting radio: BBC-2
+47655
+05.09 08:43:01 starting radio: BBC-3
+05.09 08:43:04 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+14
+05.09 08:43:15 starting radio: BBC-4
+05.09 08:43:18 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+114
+05.09 08:45:10 starting radio: RAI-3
+05.09 08:45:13 started RAI-3,,http://icestreaming.rai.it/4.mp3
+15
+05.09 08:45:26 starting radio: Klasszik
+05.09 08:45:29 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1001
+05.09 09:02:07 starting radio: Dlfunk-Kultur
+05.09 09:02:10 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+4290
+05.09 10:13:35 Shutdown signal
+05.09 10:13:35 cleanup made
+05.09 10:13:37 radio killed
+05.09 10:13:37 shutdown signal emitted
+05.09 10:13:59 elindult
+05.09 10:13:59 starting radio: Dlfunk-Kultur
+24323
+05.10 16:59:25 starting radio: Klubradio
+05.10 16:59:28 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+473
+05.10 17:07:16 Shutdown signal
+05.10 17:07:16 cleanup made
+05.10 17:07:18 radio killed
+05.10 17:07:18 shutdown signal emitted
+05.10 17:07:39 elindult
+05.10 17:07:39 starting radio: Klubradio
+55651
+05.11 08:35:10 Shutdown signal
+05.11 08:35:10 cleanup made
+05.11 08:35:12 radio killed
+05.11 08:35:12 shutdown signal emitted
+05.11 08:35:33 elindult
+05.11 08:35:33 starting radio: Klubradio
+15754
+05.11 12:58:08 Shutdown signal
+05.11 12:58:08 cleanup made
+05.11 12:58:10 radio killed
+05.11 12:58:10 shutdown signal emitted
+05.11 12:58:31 elindult
+05.11 12:58:31 starting radio: Klubradio
+26185
+05.11 20:14:58 starting radio: BBC-2
+05.11 20:15:02 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+643
+05.11 20:25:42 starting radio: BBC-3
+05.11 20:25:45 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+2931
+05.11 21:14:31 Shutdown signal
+05.11 21:14:31 cleanup made
+05.11 21:14:33 radio killed
+05.11 21:14:33 shutdown signal emitted
+05.11 21:14:56 elindult
+05.11 21:14:56 starting radio: BBC-3
+8
+05.11 21:15:07 starting radio: BBC-4
+05.11 21:15:10 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+38652
+05.12 07:59:18 Shutdown signal
+05.12 07:59:18 cleanup made
+05.12 07:59:20 radio killed
+05.12 07:59:20 shutdown signal emitted
+05.12 07:59:41 elindult
+05.12 07:59:41 starting radio: BBC-4
+20027
+05.12 13:33:31 starting radio: RAI-3
+05.12 13:33:34 started RAI-3,,http://icestreaming.rai.it/4.mp3
+13
+05.12 13:33:44 starting radio: Klasszik
+05.12 13:33:47 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1038
+05.12 13:51:01 Shutdown signal
+05.12 13:51:01 cleanup made
+05.12 13:51:03 radio killed
+05.12 13:51:03 shutdown signal emitted
+05.12 13:51:25 elindult
+05.12 13:51:25 starting radio: Klasszik
+62015
+05.13 07:05:02 starting radio: Dlfunk-Kultur
+05.13 07:05:05 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+826
+05.13 07:18:46 Shutdown signal
+05.13 07:18:46 cleanup made
+05.13 07:18:48 radio killed
+05.13 07:18:48 shutdown signal emitted
+05.13 07:19:10 elindult
+05.13 07:19:10 starting radio: Dlfunk-Kultur
+15
+05.13 07:19:27 starting radio: Klubradio
+05.13 07:19:31 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+26082
+05.13 14:34:08 Shutdown signal
+05.13 14:34:08 cleanup made
+05.13 14:34:10 radio killed
+05.13 14:34:10 shutdown signal emitted
+05.13 14:34:32 elindult
+05.13 14:34:32 starting radio: Klubradio
+60387
+05.14 07:20:59 Shutdown signal
+05.14 07:20:59 cleanup made
+05.14 07:21:01 radio killed
+05.14 07:21:01 shutdown signal emitted
+05.14 07:21:22 elindult
+05.14 07:21:22 starting radio: Klubradio
+29820
+05.14 15:38:23 Shutdown signal
+05.14 15:38:23 cleanup made
+05.14 15:38:25 radio killed
+05.14 15:38:25 shutdown signal emitted
+05.14 15:38:46 elindult
+05.14 15:38:46 starting radio: Klubradio
+20684
+05.14 21:23:32 starting radio: BBC-2
+05.14 21:23:36 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+11
+05.14 21:23:44 starting radio: BBC-3
+05.14 21:23:47 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+5202
+05.14 22:50:24 Shutdown signal
+05.14 22:50:24 cleanup made
+05.14 22:50:26 radio killed
+05.14 22:50:26 shutdown signal emitted
+05.14 22:50:48 elindult
+05.14 22:50:48 starting radio: BBC-3
+10
+05.14 22:51:01 starting radio: BBC-4
+05.14 22:51:04 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+34315
+05.15 08:22:57 starting radio: RAI-3
+05.15 08:23:00 started RAI-3,,http://icestreaming.rai.it/4.mp3
+9
+05.15 08:23:06 starting radio: Klasszik
+05.15 08:23:09 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+05.15 08:23:15 starting radio: Dlfunk-Kultur
+05.15 08:23:18 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+9
+05.15 08:23:25 starting radio: Klubradio
+05.15 08:23:28 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+4450
+05.15 09:37:36 starting radio: BBC-2
+05.15 09:37:39 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+05.15 09:37:43 Shutdown signal
+05.15 09:37:43 cleanup made
+05.15 09:37:45 radio killed
+05.15 09:37:45 shutdown signal emitted
+05.15 09:38:06 elindult
+05.15 09:38:06 starting radio: BBC-2
+39415
+05.16 20:35:02 Shutdown signal
+05.16 20:35:02 cleanup made
+05.16 20:35:04 radio killed
+05.16 20:35:04 shutdown signal emitted
+05.16 20:35:25 elindult
+05.16 20:35:25 starting radio: BBC-2
+13
+05.16 20:35:41 starting radio: BBC-3
+05.16 20:35:44 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+34744
+05.17 06:14:45 starting radio: BBC-4
+05.17 06:14:49 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+11
+05.17 06:14:55 Shutdown signal
+05.17 06:14:55 cleanup made
+05.17 06:14:57 radio killed
+05.17 06:14:57 shutdown signal emitted
+05.17 06:15:19 elindult
+05.17 06:15:19 starting radio: BBC-4
+13
+05.17 06:15:35 starting radio: RAI-3
+05.17 06:15:38 started RAI-3,,http://icestreaming.rai.it/4.mp3
+227
+05.17 06:19:22 starting radio: Klasszik
+05.17 06:19:26 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+11
+05.17 06:19:34 starting radio: Dlfunk-Kultur
+05.17 06:19:37 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+48
+05.17 06:20:23 starting radio: Klubradio
+05.17 06:20:26 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+3131
+05.17 07:12:32 Shutdown signal
+05.17 07:12:32 cleanup made
+05.17 07:12:34 radio killed
+05.17 07:12:34 shutdown signal emitted
+05.17 07:12:56 elindult
+05.17 07:12:56 starting radio: Klubradio
+18458
+05.17 12:20:35 Shutdown signal
+05.17 12:20:35 cleanup made
+05.17 12:20:37 radio killed
+05.17 12:20:37 shutdown signal emitted
+05.17 12:20:58 elindult
+05.17 12:20:58 starting radio: Klubradio
+24745
+05.17 19:13:23 Shutdown signal
+05.17 19:13:23 cleanup made
+05.17 19:13:25 radio killed
+05.17 19:13:25 shutdown signal emitted
+05.17 19:13:47 elindult
+05.17 19:13:47 starting radio: Klubradio
+47205
+05.18 08:20:33 Shutdown signal
+05.18 08:20:33 cleanup made
+05.18 08:20:35 radio killed
+05.18 08:20:35 shutdown signal emitted
+05.18 08:20:56 elindult
+05.18 08:20:56 starting radio: Klubradio
+320
+05.20 08:26:16 Shutdown signal
+05.20 08:26:16 cleanup made
+05.20 08:26:18 radio killed
+05.20 08:26:18 shutdown signal emitted
+05.20 08:26:41 elindult
+05.20 08:26:41 starting radio: Klubradio
+38962
+05.20 19:16:03 Shutdown signal
+05.20 19:16:03 cleanup made
+05.20 19:16:05 radio killed
+05.20 19:16:05 shutdown signal emitted
+05.21 07:54:26 elindult
+05.21 07:54:26 starting radio: Klubradio
+4459
+05.21 09:08:45 Shutdown signal
+05.21 09:08:45 cleanup made
+05.21 09:08:47 radio killed
+05.21 09:08:47 shutdown signal emitted
+05.21 09:09:10 elindult
+05.21 09:09:10 starting radio: Klubradio
+83928
+05.22 08:27:58 Shutdown signal
+05.22 08:27:58 cleanup made
+05.22 08:28:00 radio killed
+05.22 08:28:00 shutdown signal emitted
+05.22 08:28:22 elindult
+05.22 08:28:22 starting radio: Klubradio
+39368
+05.25 19:24:30 Shutdown signal
+05.25 19:24:30 cleanup made
+05.25 19:24:32 radio killed
+05.25 19:24:32 shutdown signal emitted
+05.25 19:24:54 elindult
+05.25 19:24:54 starting radio: Klubradio
+43458
+05.26 07:29:14 starting radio: BBC-2
+05.26 07:29:17 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+535
+05.26 07:38:09 starting radio: BBC-3
+05.26 07:38:13 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+26
+05.26 07:38:36 starting radio: BBC-4
+05.26 07:38:39 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+4836
+05.26 08:59:10 Shutdown signal
+05.26 08:59:10 cleanup made
+05.26 08:59:12 radio killed
+05.26 08:59:12 shutdown signal emitted
+05.26 08:59:34 elindult
+05.26 08:59:34 starting radio: BBC-4
+19367
+05.26 14:22:21 Shutdown signal
+05.26 14:22:21 cleanup made
+05.26 14:22:23 radio killed
+05.26 14:22:23 shutdown signal emitted
+05.27 06:17:19 elindult
+05.27 06:17:19 starting radio: Klubradio
+24588
+05.27 13:07:08 Shutdown signal
+05.27 13:07:08 cleanup made
+05.27 13:07:10 radio killed
+05.27 13:07:10 shutdown signal emitted
+05.27 13:07:31 elindult
+05.27 13:07:31 starting radio: Klubradio
+68570
+05.28 08:10:21 Shutdown signal
+05.28 08:10:21 cleanup made
+05.28 08:10:23 radio killed
+05.28 08:10:23 shutdown signal emitted
+05.28 08:10:44 elindult
+05.28 08:10:44 starting radio: Klubradio
+14120
+05.28 12:06:05 Shutdown signal
+05.28 12:06:05 cleanup made
+05.28 12:06:07 radio killed
+05.28 12:06:07 shutdown signal emitted
+05.28 12:06:28 elindult
+05.28 12:06:28 starting radio: Klubradio
+66894
+05.30 06:41:23 Shutdown signal
+05.30 06:41:23 cleanup made
+05.30 06:41:25 radio killed
+05.30 06:41:25 shutdown signal emitted
+05.30 06:41:46 elindult
+05.30 06:41:46 starting radio: Klubradio
+9051
+05.31 09:12:38 Shutdown signal
+05.31 09:12:38 cleanup made
+05.31 09:12:40 radio killed
+05.31 09:12:40 shutdown signal emitted
+05.31 09:13:02 elindult
+05.31 09:13:02 starting radio: Klubradio
+19447
+05.31 14:37:09 Shutdown signal
+05.31 14:37:09 cleanup made
+05.31 14:37:11 radio killed
+05.31 14:37:11 shutdown signal emitted
+05.31 14:37:33 elindult
+05.31 14:37:33 starting radio: Klubradio
+59188
+06.01 07:04:01 Shutdown signal
+06.01 07:04:01 cleanup made
+06.01 07:04:03 radio killed
+06.01 07:04:03 shutdown signal emitted
+06.01 07:04:23 elindult
+06.01 07:04:23 starting radio: Klubradio
+52437
+06.01 21:38:20 Shutdown signal
+06.01 21:38:20 cleanup made
+06.01 21:38:22 radio killed
+06.01 21:38:22 shutdown signal emitted
+06.01 21:38:45 elindult
+06.01 21:38:45 starting radio: Klubradio
+58806
+06.02 13:58:54 starting radio: BBC-2
+06.02 13:58:57 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+19
+06.02 13:59:11 Shutdown signal
+06.02 13:59:11 cleanup made
+06.02 13:59:13 radio killed
+06.02 13:59:13 shutdown signal emitted
+06.02 13:59:35 elindult
+06.02 13:59:35 starting radio: BBC-2
+14887
+06.02 18:07:44 starting radio: BBC-3
+06.02 18:07:48 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+1278
+06.02 18:29:01 Shutdown signal
+06.02 18:29:01 cleanup made
+06.02 18:29:03 radio killed
+06.02 18:29:03 shutdown signal emitted
+06.02 18:29:24 elindult
+06.02 18:29:24 starting radio: BBC-3
+62671
+06.05 11:53:56 Shutdown signal
+06.05 11:53:56 cleanup made
+06.05 11:53:58 radio killed
+06.05 11:53:58 shutdown signal emitted
+06.05 11:54:20 elindult
+06.05 11:54:20 starting radio: BBC-3
+10
+06.05 11:54:33 starting radio: BBC-4
+06.05 11:54:36 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+29463
+06.05 20:05:36 starting radio: RAI-3
+06.05 20:05:40 started RAI-3,,http://icestreaming.rai.it/4.mp3
+12
+06.05 20:05:49 starting radio: Klasszik
+06.05 20:05:52 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+06.05 20:05:57 starting radio: Dlfunk-Kultur
+06.05 20:06:00 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+24
+06.05 20:06:22 starting radio: Klubradio
+06.05 20:06:25 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+320
+06.05 20:11:40 Shutdown signal
+06.05 20:11:40 cleanup made
+06.05 20:11:42 radio killed
+06.05 20:11:42 shutdown signal emitted
+06.05 20:12:03 elindult
+06.05 20:12:04 starting radio: Klubradio
+44988
+06.06 08:41:52 Shutdown signal
+06.06 08:41:52 cleanup made
+06.06 08:41:54 radio killed
+06.06 08:41:54 shutdown signal emitted
+06.06 08:42:15 elindult
+06.06 08:42:15 starting radio: Klubradio
+18
+06.06 13:49:58 starting radio: BBC-2
+06.06 13:50:01 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+18454
+06.06 13:50:10 starting radio: BBC-3
+06.06 13:50:13 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+9
+06.06 13:50:19 starting radio: BBC-4
+06.06 13:50:22 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+28
+06.06 13:50:47 starting radio: RAI-3
+06.06 13:50:50 started RAI-3,,http://icestreaming.rai.it/4.mp3
+12
+06.06 13:50:59 starting radio: Klasszik
+06.06 13:51:03 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9793
+06.06 16:34:11 Shutdown signal
+06.06 16:34:11 cleanup made
+06.06 16:34:13 radio killed
+06.06 16:34:13 shutdown signal emitted
+06.06 16:34:34 elindult
+06.06 16:34:34 starting radio: Klasszik
+53544
+06.07 07:27:01 starting radio: Dlfunk-Kultur
+06.07 07:27:04 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+689
+06.07 07:38:31 starting radio: Klubradio
+06.07 07:38:34 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+2022
+06.07 08:12:12 Shutdown signal
+06.07 08:12:12 cleanup made
+06.07 08:12:14 radio killed
+06.07 08:12:14 shutdown signal emitted
+06.07 08:12:35 elindult
+06.07 08:12:35 starting radio: Klubradio
+85693
+06.08 08:00:49 Shutdown signal
+06.08 08:00:49 cleanup made
+06.08 08:00:51 radio killed
+06.08 08:00:51 shutdown signal emitted
+06.08 08:01:12 elindult
+06.08 08:01:12 starting radio: Klubradio
+21737
+06.08 14:03:30 Shutdown signal
+06.08 14:03:30 cleanup made
+06.08 14:03:32 radio killed
+06.08 14:03:32 shutdown signal emitted
+06.10 06:17:19 elindult
+06.10 06:17:19 starting radio: Klubradio
+4955
+06.10 07:39:55 Shutdown signal
+06.10 07:39:55 cleanup made
+06.10 07:39:57 radio killed
+06.10 07:39:57 shutdown signal emitted
+06.10 07:40:18 elindult
+06.10 07:40:18 starting radio: Klubradio
+22639
+06.10 13:57:38 Shutdown signal
+06.10 13:57:38 cleanup made
+06.10 13:57:40 radio killed
+06.10 13:57:40 shutdown signal emitted
+06.10 13:58:02 elindult
+06.10 13:58:02 starting radio: Klubradio
+70798
+06.12 09:38:01 Shutdown signal
+06.12 09:38:01 cleanup made
+06.12 09:38:03 radio killed
+06.12 09:38:03 shutdown signal emitted
+06.12 09:38:24 elindult
+06.12 09:38:24 starting radio: Klubradio
+17872
+06.12 14:36:18 starting radio: BBC-2
+06.12 14:36:21 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+78
+06.12 14:37:37 starting radio: BBC-3
+06.12 14:37:40 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+4927
+06.12 15:59:43 Shutdown signal
+06.12 15:59:43 cleanup made
+06.12 15:59:45 radio killed
+06.12 15:59:45 shutdown signal emitted
+06.12 16:00:06 elindult
+06.12 16:00:06 starting radio: BBC-3
+61821
+06.13 09:10:28 Shutdown signal
+06.13 09:10:28 cleanup made
+06.13 09:10:30 radio killed
+06.13 09:10:30 shutdown signal emitted
+06.13 09:10:50 elindult
+06.13 09:10:50 starting radio: BBC-3
+81448
+06.14 07:48:19 Shutdown signal
+06.14 07:48:19 cleanup made
+06.14 07:48:21 radio killed
+06.14 07:48:21 shutdown signal emitted
+06.14 07:48:42 elindult
+06.14 07:48:42 starting radio: BBC-3
+1307
+06.16 08:10:29 Shutdown signal
+06.16 08:10:29 cleanup made
+06.16 08:10:32 radio killed
+06.16 08:10:32 shutdown signal emitted
+06.16 08:10:53 elindult
+06.16 08:10:53 starting radio: BBC-3
+4003
+06.17 09:17:36 Shutdown signal
+06.17 09:17:36 cleanup made
+06.17 09:17:38 radio killed
+06.17 09:17:39 shutdown signal emitted
+06.17 09:18:00 elindult
+06.17 09:18:00 starting radio: BBC-3
+79983
+06.22 07:31:03 Shutdown signal
+06.22 07:31:03 cleanup made
+06.22 07:31:06 radio killed
+06.22 07:31:06 shutdown signal emitted
+06.22 07:31:27 elindult
+06.22 07:31:27 starting radio: BBC-3
+2146
+06.24 08:07:13 Shutdown signal
+06.24 08:07:13 cleanup made
+06.24 08:07:16 radio killed
+06.24 08:07:16 shutdown signal emitted
+06.24 08:07:37 elindult
+06.24 08:07:37 starting radio: BBC-3
+14839
+06.24 12:14:59 starting radio: BBC-4
+06.24 12:15:02 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+625
+06.24 12:25:22 Shutdown signal
+06.24 12:25:22 cleanup made
+06.24 12:25:24 radio killed
+06.24 12:25:24 shutdown signal emitted
+06.25 06:36:43 elindult
+06.25 06:36:43 starting radio: BBC-4
+43231
+06.25 18:37:17 starting radio: RAI-3
+06.25 18:37:20 started RAI-3,,http://icestreaming.rai.it/4.mp3
+10
+06.25 18:37:27 starting radio: Klasszik
+06.25 18:37:30 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+15
+06.25 18:37:43 starting radio: Dlfunk-Kultur
+06.25 18:37:46 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+485
+06.25 18:45:49 starting radio: Klubradio
+06.25 18:45:52 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5440
+06.25 20:16:27 Shutdown signal
+06.25 20:16:27 cleanup made
+06.25 20:16:29 radio killed
+06.25 20:16:29 shutdown signal emitted
+06.25 20:16:51 elindult
+06.25 20:16:51 starting radio: Klubradio
+38734
+06.26 07:02:25 Shutdown signal
+06.26 07:02:25 cleanup made
+06.26 07:02:27 radio killed
+06.26 07:02:27 shutdown signal emitted
+06.26 07:02:49 elindult
+06.26 07:02:49 starting radio: Klubradio
+84490
+06.28 06:31:01 starting radio: BBC-2
+06.28 06:31:04 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+19
+06.28 06:31:21 starting radio: BBC-3
+06.28 06:31:24 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+55
+06.28 06:32:14 Shutdown signal
+06.28 06:32:14 cleanup made
+06.28 06:32:16 radio killed
+06.28 06:32:16 shutdown signal emitted
+06.28 06:32:37 elindult
+06.28 06:32:37 starting radio: BBC-3
+12
+06.28 06:32:52 starting radio: BBC-4
+06.28 06:32:55 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+74
+06.28 06:34:06 starting radio: RAI-3
+06.28 06:34:09 started RAI-3,,http://icestreaming.rai.it/4.mp3
+9
+06.28 06:34:15 starting radio: Klasszik
+06.28 06:34:19 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+06.28 06:34:24 starting radio: Dlfunk-Kultur
+06.28 06:34:28 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+39
+06.28 06:35:04 starting radio: Klubradio
+06.28 06:35:07 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+42
+06.28 06:35:47 starting radio: BBC-2
+06.28 06:35:50 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+24
+06.28 06:36:12 starting radio: BBC-3
+06.28 06:36:15 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+80
+06.28 06:37:32 starting radio: BBC-4
+06.28 06:37:35 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+27
+06.28 06:37:59 starting radio: RAI-3
+06.28 06:38:02 started RAI-3,,http://icestreaming.rai.it/4.mp3
+10
+06.28 06:38:10 starting radio: Klasszik
+06.28 06:38:13 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+79
+06.28 06:39:29 starting radio: Dlfunk-Kultur
+06.28 06:39:32 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+11
+06.28 06:39:41 starting radio: Klubradio
+06.28 06:39:44 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+2987
+06.28 07:29:26 Shutdown signal
+06.28 07:29:26 cleanup made
+06.28 07:29:28 radio killed
+06.28 07:29:28 shutdown signal emitted
+06.28 07:29:49 elindult
+06.28 07:29:49 starting radio: Klubradio
+55276
+06.29 22:51:06 Shutdown signal
+06.29 22:51:06 cleanup made
+06.29 22:51:08 radio killed
+06.29 22:51:08 shutdown signal emitted
+06.29 22:51:28 elindult
+06.29 22:51:28 starting radio: Klubradio
+36270
+06.30 08:55:59 Shutdown signal
+06.30 08:55:59 cleanup made
+06.30 08:56:01 radio killed
+06.30 08:56:01 shutdown signal emitted
+06.30 08:56:24 elindult
+06.30 08:56:24 starting radio: Klubradio
+720
+07.03 09:08:24 Shutdown signal
+07.03 09:08:24 cleanup made
+07.03 09:08:26 radio killed
+07.03 09:08:26 shutdown signal emitted
+07.03 23:17:20 elindult
+07.03 23:17:20 starting radio: Klubradio
+31296
+07.07 07:58:56 Shutdown signal
+07.07 07:58:56 cleanup made
+07.07 07:58:58 radio killed
+07.07 07:58:58 shutdown signal emitted
+07.07 07:59:20 elindult
+07.07 07:59:20 starting radio: Klubradio
+63
+07.07 08:00:25 starting radio: BBC-2
+07.07 08:00:28 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+14
+07.07 08:00:39 starting radio: BBC-3
+07.07 08:00:42 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+26
+07.07 08:01:05 starting radio: BBC-4
+07.07 08:01:09 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+6274
+07.07 09:45:38 Shutdown signal
+07.07 09:45:38 cleanup made
+07.07 09:45:40 radio killed
+07.07 09:45:40 shutdown signal emitted
+07.07 09:46:01 elindult
+07.07 09:46:01 starting radio: BBC-4
+78913
+07.18 07:41:17 starting radio: RAI-3
+07.18 07:41:20 started RAI-3,,http://icestreaming.rai.it/4.mp3
+13
+07.18 07:41:31 starting radio: Klasszik
+07.18 07:41:34 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+887
+07.18 07:56:16 Shutdown signal
+07.18 07:56:16 cleanup made
+07.18 07:56:18 radio killed
+07.18 07:56:18 shutdown signal emitted
+07.18 07:56:39 elindult
+07.18 07:56:39 starting radio: Klasszik
+85884
+07.26 07:48:03 Shutdown signal
+07.26 07:48:03 cleanup made
+07.26 07:48:05 radio killed
+07.26 07:48:05 shutdown signal emitted
+07.26 07:48:26 elindult
+07.26 07:48:26 starting radio: Klasszik
+38899
+07.26 18:36:48 starting radio: Dlfunk-Kultur
+07.26 18:36:51 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+340
+07.26 18:42:28 starting radio: Klubradio
+07.26 18:42:31 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1777
+07.26 19:12:03 Shutdown signal
+07.26 19:12:03 cleanup made
+07.26 19:12:05 radio killed
+07.26 19:12:05 shutdown signal emitted
+07.26 19:12:27 elindult
+07.26 19:12:27 starting radio: Klubradio
+65450
+07.28 13:23:20 starting radio: BBC-2
+07.28 13:23:23 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+07.28 13:23:26 Shutdown signal
+07.28 13:23:26 cleanup made
+07.28 13:23:28 radio killed
+07.28 13:23:28 shutdown signal emitted
+07.28 13:23:49 elindult
+07.28 13:23:49 starting radio: BBC-2
+15187
+07.29 17:36:56 Shutdown signal
+07.29 17:36:56 cleanup made
+07.29 17:36:58 radio killed
+07.29 17:36:58 shutdown signal emitted
+07.29 17:37:20 elindult
+07.29 17:37:20 starting radio: BBC-2
+6
+07.29 17:37:29 starting radio: BBC-3
+07.29 17:37:32 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+10
+07.29 17:37:39 starting radio: BBC-4
+07.29 17:39:08 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+94
+07.29 17:39:13 starting radio: RAI-3
+07.29 17:39:16 started RAI-3,,http://icestreaming.rai.it/4.mp3
+11
+07.29 17:39:25 starting radio: Klasszik
+07.29 17:39:28 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+16
+07.29 17:39:41 starting radio: Dlfunk-Kultur
+07.29 17:39:44 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+10
+07.29 17:39:51 starting radio: Klubradio
+07.29 17:39:54 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+13512
+07.29 21:25:02 Shutdown signal
+07.29 21:25:02 cleanup made
+07.29 21:25:04 radio killed
+07.29 21:25:04 shutdown signal emitted
+07.29 21:25:25 elindult
+07.29 21:25:25 starting radio: Klubradio
+41434
+07.30 08:56:00 Shutdown signal
+07.30 08:56:00 cleanup made
+07.30 08:56:02 radio killed
+07.30 08:56:02 shutdown signal emitted
+07.30 08:56:22 elindult
+07.30 08:56:22 starting radio: Klubradio
+29838
+07.30 17:13:41 Shutdown signal
+07.30 17:13:41 cleanup made
+07.30 17:13:43 radio killed
+07.30 17:13:43 shutdown signal emitted
+07.30 17:14:03 elindult
+07.30 17:14:03 starting radio: Klubradio
+56544
+07.31 08:56:27 Shutdown signal
+07.31 08:56:27 cleanup made
+07.31 08:56:29 radio killed
+07.31 08:56:29 shutdown signal emitted
+07.31 08:56:50 elindult
+07.31 08:56:50 starting radio: Klubradio
+14185
+07.31 12:53:16 Shutdown signal
+07.31 12:53:16 cleanup made
+07.31 12:53:18 radio killed
+07.31 12:53:18 shutdown signal emitted
+07.31 12:53:38 elindult
+07.31 12:53:38 starting radio: Klubradio
+68117
+08.02 07:48:56 Shutdown signal
+08.02 07:48:56 cleanup made
+08.02 07:48:58 radio killed
+08.02 07:48:58 shutdown signal emitted
+08.02 07:49:19 elindult
+08.02 07:49:19 starting radio: Klubradio
+84875
+08.05 07:23:55 Shutdown signal
+08.05 07:23:55 cleanup made
+08.05 07:23:57 radio killed
+08.05 07:23:57 shutdown signal emitted
+08.05 07:24:18 elindult
+08.05 07:24:18 starting radio: Klubradio
+9671
+08.07 10:05:29 Shutdown signal
+08.07 10:05:29 cleanup made
+08.07 10:05:31 radio killed
+08.07 10:05:31 shutdown signal emitted
+08.07 10:05:53 elindult
+08.07 10:05:53 starting radio: Klubradio
+10688
+08.07 13:04:01 Shutdown signal
+08.07 13:04:01 cleanup made
+08.07 13:04:03 radio killed
+08.07 13:04:03 shutdown signal emitted
+08.07 13:04:24 elindult
+08.07 13:04:24 starting radio: Klubradio
+4459
+08.07 14:18:44 Shutdown signal
+08.07 14:18:44 cleanup made
+08.07 14:18:46 radio killed
+08.07 14:18:46 shutdown signal emitted
+08.07 14:19:08 elindult
+08.07 14:19:08 starting radio: Klubradio
+76272
+08.08 11:30:21 Shutdown signal
+08.08 11:30:21 cleanup made
+08.08 11:30:23 radio killed
+08.08 11:30:23 shutdown signal emitted
+08.08 11:30:45 elindult
+08.08 11:30:45 starting radio: Klubradio
+77250
+08.14 08:58:17 starting radio: BBC-2
+08.14 08:58:21 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+84
+08.14 08:59:42 starting radio: BBC-3
+08.14 08:59:45 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+28
+08.14 09:00:10 starting radio: BBC-4
+08.14 09:00:14 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+1860
+08.14 09:31:09 Shutdown signal
+08.14 09:31:09 cleanup made
+08.14 09:31:11 radio killed
+08.14 09:31:11 shutdown signal emitted
+08.14 09:31:32 elindult
+08.14 09:31:32 starting radio: BBC-4
+77945
+08.23 07:10:39 starting radio: RAI-3
+08.23 07:10:43 started RAI-3,,http://icestreaming.rai.it/4.mp3
+11
+08.23 07:10:51 starting radio: Klasszik
+08.23 07:10:54 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+08.23 07:10:59 starting radio: Dlfunk-Kultur
+08.23 07:11:02 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+12
+08.23 07:11:12 starting radio: Klubradio
+08.23 07:11:15 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1977
+08.23 07:44:07 Shutdown signal
+08.23 07:44:07 cleanup made
+08.23 07:44:09 radio killed
+08.23 07:44:09 shutdown signal emitted
+08.23 07:44:31 elindult
+08.23 07:44:31 starting radio: Klubradio
+885
+08.24 07:59:17 Shutdown signal
+08.24 07:59:17 cleanup made
+08.24 07:59:19 radio killed
+08.24 07:59:19 shutdown signal emitted
+08.24 07:59:40 elindult
+08.24 07:59:40 starting radio: Klubradio
+8
+08.24 07:59:51 starting radio: BBC-2
+08.24 07:59:54 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+44755
+08.24 20:25:47 starting radio: BBC-3
+08.24 20:25:50 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+4614
+08.24 21:42:39 Shutdown signal
+08.24 21:42:39 cleanup made
+08.24 21:42:41 radio killed
+08.24 21:42:41 shutdown signal emitted
+08.24 21:43:01 elindult
+08.24 21:43:01 starting radio: BBC-3
+38620
+08.25 08:26:42 Shutdown signal
+08.25 08:26:42 cleanup made
+08.25 08:26:44 radio killed
+08.25 08:26:44 shutdown signal emitted
+08.25 08:27:06 elindult
+08.25 08:27:06 starting radio: BBC-3
+33503
+08.25 17:45:31 starting radio: BBC-4
+08.25 17:45:35 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+14
+08.25 17:45:44 Shutdown signal
+08.25 17:45:44 cleanup made
+08.25 17:45:46 radio killed
+08.25 17:45:46 shutdown signal emitted
+08.25 17:46:07 elindult
+08.25 17:46:07 starting radio: BBC-4
+11
+08.25 17:46:21 starting radio: RAI-3
+08.25 17:46:24 started RAI-3,,http://icestreaming.rai.it/4.mp3
+110
+08.25 17:48:12 starting radio: Klasszik
+08.25 17:48:15 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+102
+08.25 17:49:54 starting radio: Dlfunk-Kultur
+08.25 17:49:57 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+92
+08.25 17:51:26 starting radio: Klubradio
+08.25 17:51:29 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+155
+08.25 17:53:59 Shutdown signal
+08.25 17:53:59 cleanup made
+08.25 17:54:01 radio killed
+08.25 17:54:01 shutdown signal emitted
+08.25 17:54:23 elindult
+08.25 17:54:23 starting radio: Klubradio
+47961
+08.26 07:13:44 Shutdown signal
+08.26 07:13:44 cleanup made
+08.26 07:13:46 radio killed
+08.26 07:13:46 shutdown signal emitted
+08.26 07:14:08 elindult
+08.26 07:14:08 starting radio: Klubradio
+3867
+08.26 08:18:35 Shutdown signal
+08.26 08:18:35 cleanup made
+08.26 08:18:37 radio killed
+08.26 08:18:37 shutdown signal emitted
+08.26 08:18:58 elindult
+08.26 08:18:58 starting radio: Klubradio
+83828
+08.27 07:36:09 starting radio: BBC-2
+08.27 07:36:12 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+08.27 07:36:19 starting radio: BBC-3
+08.27 07:36:22 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+10
+08.27 07:36:29 starting radio: BBC-4
+08.27 07:36:33 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+7
+08.27 07:36:34 Shutdown signal
+08.27 07:36:34 cleanup made
+08.27 07:36:37 radio killed
+08.27 07:36:37 shutdown signal emitted
+08.27 07:36:58 elindult
+08.27 07:36:58 starting radio: BBC-4
+15052
+08.27 11:47:53 starting radio: RAI-3
+08.27 11:47:56 started RAI-3,,http://icestreaming.rai.it/4.mp3
+51
+08.27 11:48:45 starting radio: Klasszik
+08.27 11:48:48 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1031
+08.27 12:05:54 Shutdown signal
+08.27 12:05:54 cleanup made
+08.27 12:05:57 radio killed
+08.27 12:05:57 shutdown signal emitted
+08.27 12:06:18 elindult
+08.27 12:06:18 starting radio: Klasszik
+75284
+08.28 09:01:02 Shutdown signal
+08.28 09:01:02 cleanup made
+08.28 09:01:04 radio killed
+08.28 09:01:04 shutdown signal emitted
+08.28 09:01:25 elindult
+08.28 09:01:25 starting radio: Klasszik
+66
+08.28 09:02:33 starting radio: Dlfunk-Kultur
+08.28 09:02:37 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+33
+08.28 09:03:05 Shutdown signal
+08.28 09:03:05 cleanup made
+08.28 09:03:07 radio killed
+08.28 09:03:07 shutdown signal emitted
+08.28 09:03:28 elindult
+08.28 09:03:28 starting radio: Dlfunk-Kultur
+8120
+08.28 11:18:51 starting radio: Klubradio
+08.28 11:18:54 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+202
+08.28 11:22:13 starting radio: BBC-2
+08.28 11:22:17 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+190
+08.28 11:25:22 Shutdown signal
+08.28 11:25:22 cleanup made
+08.28 11:25:24 radio killed
+08.28 11:25:24 shutdown signal emitted
+08.28 11:25:45 elindult
+08.28 11:25:45 starting radio: BBC-2
+7
+08.28 11:25:55 starting radio: BBC-3
+08.28 11:25:58 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+8
+08.28 11:26:03 starting radio: BBC-4
+08.29 08:03:56 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+74280
+08.29 08:04:04 starting radio: RAI-3
+08.29 08:04:07 started RAI-3,,http://icestreaming.rai.it/4.mp3
+14
+08.29 08:04:18 starting radio: Klasszik
+08.29 08:04:21 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+10
+08.29 08:04:28 starting radio: Dlfunk-Kultur
+08.29 08:04:31 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+10
+08.29 08:04:39 starting radio: Klubradio
+08.29 08:04:42 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+293
+08.29 08:09:32 starting radio: BBC-2
+08.29 08:09:35 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+306
+08.29 08:14:39 starting radio: BBC-3
+08.29 08:14:42 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+4709
+08.29 09:33:06 Shutdown signal
+08.29 09:33:06 cleanup made
+08.29 09:33:08 radio killed
+08.29 09:33:08 shutdown signal emitted
+08.29 09:33:30 elindult
+08.29 09:33:30 starting radio: BBC-3
+80288
+08.30 07:51:39 Shutdown signal
+08.30 07:51:39 cleanup made
+08.30 07:51:41 radio killed
+08.30 07:51:41 shutdown signal emitted
+08.30 07:52:02 elindult
+08.30 07:52:02 starting radio: BBC-3
+2415
+08.30 08:32:17 Shutdown signal
+08.30 08:32:17 cleanup made
+08.30 08:32:19 radio killed
+08.30 08:32:19 shutdown signal emitted
+08.30 08:32:42 elindult
+08.30 08:32:42 starting radio: BBC-3
+8
+08.30 08:32:53 starting radio: BBC-4
+08.30 08:32:56 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+81863
+08.31 07:17:16 starting radio: RAI-3
+08.31 07:17:19 started RAI-3,,http://icestreaming.rai.it/4.mp3
+9
+08.31 07:17:25 starting radio: Klasszik
+08.31 07:17:28 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+12
+08.31 07:17:37 starting radio: Dlfunk-Kultur
+08.31 07:17:41 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+9
+08.31 07:17:47 starting radio: Klubradio
+08.31 07:17:50 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+3213
+08.31 08:11:20 starting radio: BBC-2
+08.31 08:11:23 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+7
+08.31 08:11:26 Shutdown signal
+08.31 08:11:26 cleanup made
+08.31 08:11:28 radio killed
+08.31 08:11:28 shutdown signal emitted
+08.31 08:11:48 elindult
+08.31 08:11:48 starting radio: BBC-2
+13
+08.31 08:12:04 starting radio: BBC-3
+08.31 08:12:07 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+808
+09.01 08:25:30 Shutdown signal
+09.01 08:25:30 cleanup made
+09.01 08:25:32 radio killed
+09.01 08:25:32 shutdown signal emitted
+09.01 08:25:53 elindult
+09.01 08:25:53 starting radio: BBC-3
+43102
+09.01 20:24:17 starting radio: BBC-4
+09.01 20:24:20 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+5065
+09.01 21:48:40 Shutdown signal
+09.01 21:48:40 cleanup made
+09.01 21:48:42 radio killed
+09.01 21:48:42 shutdown signal emitted
+09.02 09:21:26 elindult
+09.02 09:21:26 starting radio: BBC-4
+84911
+09.03 08:56:38 Shutdown signal
+09.03 08:56:38 cleanup made
+09.03 08:56:40 radio killed
+09.03 08:56:40 shutdown signal emitted
+09.04 15:17:21 elindult
+09.04 15:17:21 starting radio: BBC-4
+60630
+09.05 08:07:53 starting radio: RAI-3
+09.05 08:07:56 started RAI-3,,http://icestreaming.rai.it/4.mp3
+8
+09.05 08:08:02 starting radio: Klasszik
+09.05 08:08:05 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+09.05 08:08:10 starting radio: Dlfunk-Kultur
+09.05 08:08:13 started Dlfunk-Kultur,,https://st01.sslstream.dlf.de/dlf/01/64/mp3/stream.mp3
+9
+09.05 08:08:20 starting radio: Klubradio
+09.05 08:08:23 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+44
+09.05 08:09:04 starting radio: BBC-2
+09.05 08:09:07 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+869
+09.05 08:23:32 Shutdown signal
+09.05 08:23:32 cleanup made
+09.05 08:23:34 radio killed
+09.05 08:23:34 shutdown signal emitted
+09.05 10:15:50 elindult
+09.05 10:15:50 starting radio: Klubradio
+1824
+09.05 10:46:15 Shutdown signal
+09.05 10:46:15 cleanup made
+09.05 10:46:17 radio killed
+09.05 10:46:17 shutdown signal emitted
+09.05 10:46:37 elindult
+09.05 10:46:37 starting radio: Klubradio
+21881
+09.05 16:51:21 starting radio: BBC-2
+09.05 16:51:24 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+1440
+09.05 17:15:21 starting radio: BBC-3
+09.05 17:15:25 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+596
+09.05 17:25:16 Shutdown signal
+09.05 17:25:16 cleanup made
+09.05 17:25:18 radio killed
+09.05 17:25:18 shutdown signal emitted
+09.05 17:25:39 elindult
+09.05 17:25:39 starting radio: BBC-3
+57800
+09.07 09:29:00 Shutdown signal
+09.07 09:29:00 cleanup made
+09.07 09:29:02 radio killed
+09.07 09:29:02 shutdown signal emitted
+09.07 09:29:24 elindult
+09.07 09:29:24 starting radio: BBC-3
+6794
+09.07 11:22:39 Shutdown signal
+09.07 11:22:39 cleanup made
+09.07 11:22:41 radio killed
+09.07 11:22:41 shutdown signal emitted
+09.07 11:23:01 elindult
+09.07 11:23:01 starting radio: BBC-3
+22913
+09.07 17:44:56 starting radio: BBC-4
+09.07 17:45:00 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+617
+09.07 17:55:14 starting radio: Klasszik
+09.07 17:55:17 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+13
+09.07 17:55:28 starting radio: Klubradio
+09.07 17:55:31 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5594
+09.07 19:28:40 Shutdown signal
+09.07 19:28:40 cleanup made
+09.07 19:28:42 radio killed
+09.07 19:28:42 shutdown signal emitted
+09.07 19:29:04 elindult
+09.07 19:29:04 starting radio: Klubradio
+43549
+09.08 07:34:53 Shutdown signal
+09.08 07:34:53 cleanup made
+09.08 07:34:55 radio killed
+09.08 07:34:55 shutdown signal emitted
+09.08 07:35:17 elindult
+09.08 07:35:17 starting radio: Klubradio
+4873
+09.09 08:56:30 Shutdown signal
+09.09 08:56:30 cleanup made
+09.09 08:56:32 radio killed
+09.09 08:56:32 shutdown signal emitted
+09.09 08:56:53 elindult
+09.09 08:56:53 starting radio: Klubradio
+29791
+09.09 17:13:26 starting radio: BBC-2
+09.09 17:13:30 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+3011
+09.09 18:03:36 Shutdown signal
+09.09 18:03:36 cleanup made
+09.09 18:03:38 radio killed
+09.09 18:03:38 shutdown signal emitted
+09.09 18:04:00 elindult
+09.09 18:04:00 starting radio: BBC-2
+47155
+09.10 07:09:58 starting radio: BBC-3
+09.10 07:10:01 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+10
+09.10 07:10:08 starting radio: BBC-4
+09.10 07:10:11 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+100
+09.10 07:11:48 starting radio: Klasszik
+09.10 07:11:52 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1688
+09.10 07:39:57 starting radio: Klubradio
+09.10 07:40:00 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+806
+09.10 07:53:22 Shutdown signal
+09.10 07:53:22 cleanup made
+09.10 07:53:24 radio killed
+09.10 07:53:24 shutdown signal emitted
+09.10 07:53:45 elindult
+09.10 07:53:45 starting radio: Klubradio
+82224
+09.11 06:44:09 Shutdown signal
+09.11 06:44:09 cleanup made
+09.11 06:44:12 radio killed
+09.11 06:44:12 shutdown signal emitted
+09.11 06:44:33 elindult
+09.11 06:44:33 starting radio: Klubradio
+4450
+09.12 07:58:46 starting radio: BBC-2
+09.12 07:58:49 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+09.12 07:58:55 starting radio: BBC-3
+09.12 07:58:59 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+16
+09.12 07:59:12 starting radio: BBC-4
+09.12 07:59:15 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+115
+09.12 08:01:07 starting radio: Klasszik
+09.12 08:01:10 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+26
+09.12 08:01:33 starting radio: Klubradio
+09.12 08:01:36 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5263
+09.12 09:29:14 Shutdown signal
+09.12 09:29:14 cleanup made
+09.12 09:29:17 radio killed
+09.12 09:29:17 shutdown signal emitted
+09.12 09:29:38 elindult
+09.12 09:29:38 starting radio: Klubradio
+654
+09.13 09:40:32 Shutdown signal
+09.13 09:40:32 cleanup made
+09.13 09:40:34 radio killed
+09.13 09:40:34 shutdown signal emitted
+09.13 09:40:56 elindult
+09.13 09:40:56 starting radio: Klubradio
+80333
+09.14 07:59:49 Shutdown signal
+09.14 07:59:49 cleanup made
+09.14 07:59:51 radio killed
+09.14 07:59:51 shutdown signal emitted
+09.14 08:00:12 elindult
+09.14 08:00:12 starting radio: Klubradio
+35266
+09.14 17:47:58 Shutdown signal
+09.14 17:47:58 cleanup made
+09.14 17:48:01 radio killed
+09.14 17:48:01 shutdown signal emitted
+09.14 17:48:22 elindult
+09.14 17:48:22 starting radio: Klubradio
+55590
+09.15 09:14:53 Shutdown signal
+09.15 09:14:53 cleanup made
+09.15 09:14:55 radio killed
+09.15 09:14:55 shutdown signal emitted
+09.15 09:15:17 elindult
+09.15 09:15:17 starting radio: Klubradio
+82485
+09.16 08:10:03 Shutdown signal
+09.16 08:10:03 cleanup made
+09.16 08:10:05 radio killed
+09.16 08:10:05 shutdown signal emitted
+09.16 08:10:26 elindult
+09.16 08:10:26 starting radio: Klubradio
+6660
+09.17 10:01:26 Shutdown signal
+09.17 10:01:26 cleanup made
+09.17 10:01:28 radio killed
+09.17 10:01:28 shutdown signal emitted
+09.17 10:01:49 elindult
+09.17 10:01:49 starting radio: Klubradio
+36079
+09.17 20:03:09 Shutdown signal
+09.17 20:03:09 cleanup made
+09.17 20:03:11 radio killed
+09.17 20:03:11 shutdown signal emitted
+09.17 23:17:20 elindult
+09.17 23:17:20 starting radio: Klubradio
+39454
+09.18 10:14:54 Shutdown signal
+09.18 10:14:54 cleanup made
+09.18 10:14:56 radio killed
+09.18 10:14:56 shutdown signal emitted
+09.18 10:15:18 elindult
+09.18 10:15:18 starting radio: Klubradio
+79477
+09.20 08:19:56 Shutdown signal
+09.20 08:19:56 cleanup made
+09.20 08:19:58 radio killed
+09.20 08:19:58 shutdown signal emitted
+09.20 08:20:19 elindult
+09.20 08:20:19 starting radio: Klubradio
+837
+09.22 08:34:17 Shutdown signal
+09.22 08:34:17 cleanup made
+09.22 08:34:19 radio killed
+09.22 08:34:19 shutdown signal emitted
+09.22 08:34:40 elindult
+09.22 08:34:40 starting radio: Klubradio
+5712
+09.23 10:09:53 Shutdown signal
+09.23 10:09:53 cleanup made
+09.23 10:09:55 radio killed
+09.23 10:09:55 shutdown signal emitted
+09.23 10:10:16 elindult
+09.23 10:10:16 starting radio: Klubradio
+8
+09.23 10:10:27 starting radio: BBC-2
+09.23 10:10:30 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+47470
+09.23 23:21:37 starting radio: BBC-3
+09.23 23:21:40 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+150
+09.23 23:24:05 Shutdown signal
+09.23 23:24:05 cleanup made
+09.23 23:24:07 radio killed
+09.23 23:24:07 shutdown signal emitted
+09.23 23:24:29 elindult
+09.23 23:24:29 starting radio: BBC-3
+30341
+09.27 07:50:12 starting radio: BBC-4
+09.27 07:50:16 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+100
+09.27 07:51:53 starting radio: Klasszik
+09.27 07:51:56 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+68
+09.27 07:53:01 starting radio: Klubradio
+09.27 07:53:05 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+132
+09.27 07:55:12 Shutdown signal
+09.27 07:55:12 cleanup made
+09.27 07:55:14 radio killed
+09.27 07:55:14 shutdown signal emitted
+09.27 07:55:34 elindult
+09.27 07:55:34 starting radio: Klubradio
+2488
+09.27 08:37:03 Shutdown signal
+09.27 08:37:03 cleanup made
+09.27 08:37:05 radio killed
+09.27 08:37:05 shutdown signal emitted
+09.27 08:37:27 elindult
+09.27 08:37:27 starting radio: Klubradio
+83901
+09.28 07:55:51 starting radio: BBC-2
+09.28 07:55:54 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+24
+09.28 07:56:13 Shutdown signal
+09.28 07:56:13 cleanup made
+09.28 07:56:15 radio killed
+09.28 07:56:15 shutdown signal emitted
+09.28 07:56:37 elindult
+09.28 07:56:37 starting radio: BBC-2
+789
+09.28 08:09:48 starting radio: BBC-3
+09.28 08:09:51 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+8
+09.28 08:09:56 starting radio: BBC-4
+09.28 08:09:59 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+1510
+09.28 08:35:04 Shutdown signal
+09.28 08:35:04 cleanup made
+09.28 08:35:06 radio killed
+09.28 08:35:06 shutdown signal emitted
+09.28 08:35:27 elindult
+09.28 08:35:27 starting radio: BBC-4
+82612
+09.29 07:32:20 Shutdown signal
+09.29 07:32:20 cleanup made
+09.29 07:32:22 radio killed
+09.29 07:32:22 shutdown signal emitted
+09.29 07:32:43 elindult
+09.29 07:32:43 starting radio: BBC-4
+48584
+09.29 21:02:29 starting radio: Klasszik
+09.29 21:02:33 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+95
+09.29 21:04:05 starting radio: Klubradio
+09.29 21:04:08 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+909
+09.29 21:19:13 Shutdown signal
+09.29 21:19:13 cleanup made
+09.29 21:19:15 radio killed
+09.29 21:19:15 shutdown signal emitted
+09.29 21:19:37 elindult
+09.29 21:19:37 starting radio: Klubradio
+76226
+09.30 18:30:03 Shutdown signal
+09.30 18:30:03 cleanup made
+09.30 18:30:05 radio killed
+09.30 18:30:05 shutdown signal emitted
+09.30 18:30:26 elindult
+09.30 18:30:26 starting radio: Klubradio
+8463
+10.03 20:51:29 Shutdown signal
+10.03 20:51:29 cleanup made
+10.03 20:51:32 radio killed
+10.03 20:51:32 shutdown signal emitted
+10.03 20:51:52 elindult
+10.03 20:51:52 starting radio: Klubradio
+38198
+10.04 07:28:33 starting radio: BBC-2
+10.04 07:28:36 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+10.04 07:28:43 starting radio: BBC-3
+10.04 07:28:46 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+44
+10.04 07:29:27 starting radio: BBC-4
+10.04 07:29:31 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+2590
+10.04 08:12:38 starting radio: Klasszik
+10.04 08:12:41 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1577
+10.04 08:38:56 starting radio: Klubradio
+10.04 08:38:59 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+11
+10.04 08:39:05 Shutdown signal
+10.04 08:39:05 cleanup made
+10.04 08:39:07 radio killed
+10.04 08:39:07 shutdown signal emitted
+10.04 08:39:29 elindult
+10.04 08:39:29 starting radio: Klubradio
+87
+10.05 08:40:56 Shutdown signal
+10.05 08:40:56 cleanup made
+10.05 08:40:58 radio killed
+10.05 08:40:58 shutdown signal emitted
+10.05 08:41:20 elindult
+10.05 08:41:20 starting radio: Klubradio
+16028
+10.06 13:08:29 Shutdown signal
+10.06 13:08:29 cleanup made
+10.06 13:08:31 radio killed
+10.06 13:08:31 shutdown signal emitted
+10.07 07:48:40 elindult
+10.07 07:48:40 starting radio: BBC-3
+618
+10.07 07:58:59 Shutdown signal
+10.07 07:58:59 cleanup made
+10.07 07:59:01 radio killed
+10.07 07:59:01 shutdown signal emitted
+10.07 07:59:24 elindult
+10.07 07:59:24 starting radio: BBC-3
+264
+10.07 08:03:51 starting radio: BBC-4
+10.07 08:03:54 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+14
+10.07 08:04:05 starting radio: Klasszik
+10.07 08:04:08 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+13
+10.07 08:04:18 starting radio: Klubradio
+10.07 08:04:22 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1123
+10.07 08:23:00 Shutdown signal
+10.07 08:23:00 cleanup made
+10.07 08:23:02 radio killed
+10.07 08:23:02 shutdown signal emitted
+10.07 08:23:24 elindult
+10.07 08:23:24 starting radio: Klubradio
+15253
+10.07 12:37:39 starting radio: BBC-2
+10.07 12:37:42 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+10.07 12:37:49 starting radio: BBC-3
+10.07 12:37:52 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+26
+10.07 12:38:15 starting radio: BBC-4
+10.07 12:38:18 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+10.07 12:38:24 starting radio: Klasszik
+10.07 12:38:27 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+20
+10.07 12:38:45 starting radio: Klubradio
+10.07 12:38:48 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+43
+10.07 12:39:28 starting radio: BBC-2
+10.07 12:39:31 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+29
+10.07 12:39:58 starting radio: BBC-3
+10.07 12:40:01 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+12
+10.07 12:40:10 starting radio: BBC-4
+10.07 12:40:14 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+68
+10.07 12:41:18 starting radio: Klasszik
+10.07 12:41:22 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1206
+10.07 13:01:23 Shutdown signal
+10.07 13:01:23 cleanup made
+10.07 13:01:25 radio killed
+10.07 13:01:25 shutdown signal emitted
+10.07 13:01:46 elindult
+10.07 13:01:46 starting radio: Klasszik
+16081
+10.07 17:29:47 Shutdown signal
+10.07 17:29:47 cleanup made
+10.07 17:29:49 radio killed
+10.07 17:29:49 shutdown signal emitted
+10.07 17:30:09 elindult
+10.07 17:30:09 starting radio: Klasszik
+54689
+10.08 08:41:41 starting radio: Klubradio
+10.08 08:41:44 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+10
+10.08 08:41:49 Shutdown signal
+10.08 08:41:49 cleanup made
+10.08 08:41:51 radio killed
+10.08 08:41:51 shutdown signal emitted
+10.08 08:42:11 elindult
+10.08 08:42:11 starting radio: Klubradio
+1881
+10.09 09:13:33 Shutdown signal
+10.09 09:13:33 cleanup made
+10.09 09:13:35 radio killed
+10.09 09:13:35 shutdown signal emitted
+10.09 09:13:56 elindult
+10.09 09:13:56 starting radio: Klubradio
+22684
+10.09 15:32:01 Shutdown signal
+10.09 15:32:01 cleanup made
+10.09 15:32:03 radio killed
+10.09 15:32:03 shutdown signal emitted
+10.10 06:24:03 elindult
+10.10 06:24:03 starting radio: Klubradio
+48624
+10.10 19:54:28 Shutdown signal
+10.10 19:54:28 cleanup made
+10.10 19:54:30 radio killed
+10.10 19:54:30 shutdown signal emitted
+10.10 19:54:51 elindult
+10.10 19:54:51 starting radio: Klubradio
+46051
+10.11 08:42:22 Shutdown signal
+10.11 08:42:22 cleanup made
+10.11 08:42:25 radio killed
+10.11 08:42:25 shutdown signal emitted
+10.11 08:42:45 elindult
+10.11 08:42:45 starting radio: Klubradio
+83696
+10.12 07:57:44 starting radio: BBC-2
+10.12 07:57:47 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+11
+10.12 07:57:56 starting radio: BBC-3
+10.12 07:57:59 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+8
+10.12 07:58:04 starting radio: BBC-4
+10.12 07:58:07 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+869
+10.12 08:12:33 starting radio: Klasszik
+10.12 08:12:36 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+29
+10.12 08:13:03 starting radio: Klubradio
+10.12 08:13:06 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1329
+10.12 08:35:10 Shutdown signal
+10.12 08:35:10 cleanup made
+10.12 08:35:12 radio killed
+10.12 08:35:12 shutdown signal emitted
+10.12 08:35:33 elindult
+10.12 08:35:33 starting radio: Klubradio
+1442
+10.13 08:59:35 Shutdown signal
+10.13 08:59:35 cleanup made
+10.13 08:59:38 radio killed
+10.13 08:59:38 shutdown signal emitted
+10.14 08:17:20 elindult
+10.14 08:17:20 starting radio: Klubradio
+31474
+10.14 17:01:55 Shutdown signal
+10.14 17:01:55 cleanup made
+10.14 17:01:57 radio killed
+10.14 17:01:57 shutdown signal emitted
+10.14 22:31:16 elindult
+10.14 22:31:16 starting radio: Klubradio
+38719
+10.15 09:16:35 Shutdown signal
+10.15 09:16:35 cleanup made
+10.15 09:16:37 radio killed
+10.15 09:16:37 shutdown signal emitted
+10.15 09:16:58 elindult
+10.15 09:16:58 starting radio: Klubradio
+41039
+10.15 20:40:58 Shutdown signal
+10.15 20:40:58 cleanup made
+10.15 20:41:00 radio killed
+10.15 20:41:00 shutdown signal emitted
+10.15 20:41:20 elindult
+10.15 20:41:20 starting radio: Klubradio
+36935
+10.16 06:56:58 starting radio: BBC-2
+10.16 06:57:01 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+10
+10.16 06:57:09 starting radio: BBC-3
+10.16 06:57:12 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+1046
+10.16 07:14:33 Shutdown signal
+10.16 07:14:33 cleanup made
+10.16 07:14:35 radio killed
+10.16 07:14:35 shutdown signal emitted
+10.16 07:14:56 elindult
+10.16 07:14:56 starting radio: BBC-3
+6816
+10.17 09:08:34 starting radio: BBC-4
+10.17 09:08:38 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+1183
+10.17 09:28:18 starting radio: Klasszik
+10.17 09:28:21 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+142
+10.17 09:30:40 starting radio: Klubradio
+10.17 09:30:44 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+1888
+10.17 10:02:07 Shutdown signal
+10.17 10:02:07 cleanup made
+10.17 10:02:09 radio killed
+10.17 10:02:09 shutdown signal emitted
+10.17 10:02:31 elindult
+10.17 10:02:31 starting radio: Klubradio
+80675
+10.18 08:27:07 Shutdown signal
+10.18 08:27:07 cleanup made
+10.18 08:27:09 radio killed
+10.18 08:27:09 shutdown signal emitted
+10.18 08:27:31 elindult
+10.18 08:27:31 starting radio: Klubradio
+1767
+10.18 08:56:58 Shutdown signal
+10.18 08:56:58 cleanup made
+10.18 08:57:00 radio killed
+10.18 08:57:00 shutdown signal emitted
+10.18 08:57:21 elindult
+10.18 08:57:21 starting radio: Klubradio
+83009
+10.19 08:00:51 Shutdown signal
+10.19 08:00:51 cleanup made
+10.19 08:00:53 radio killed
+10.19 08:00:53 shutdown signal emitted
+10.19 08:01:13 elindult
+10.19 08:01:13 starting radio: Klubradio
+26911
+10.19 15:29:44 Shutdown signal
+10.19 15:29:44 cleanup made
+10.19 15:29:46 radio killed
+10.19 15:29:46 shutdown signal emitted
+10.19 15:30:08 elindult
+10.19 15:30:08 starting radio: Klubradio
+58902
+10.20 07:51:53 starting radio: BBC-2
+10.20 07:51:56 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+22
+10.20 07:52:13 Shutdown signal
+10.20 07:52:13 cleanup made
+10.20 07:52:15 radio killed
+10.20 07:52:15 shutdown signal emitted
+10.20 07:52:37 elindult
+10.20 07:52:37 starting radio: BBC-2
+85386
+10.21 07:35:45 starting radio: BBC-3
+10.21 07:35:48 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+10
+10.21 07:35:56 starting radio: BBC-4
+10.21 07:35:59 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+10.21 07:36:04 starting radio: Klasszik
+10.21 07:36:08 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+11
+10.21 07:36:16 starting radio: Klubradio
+10.21 07:36:19 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+10379
+10.21 10:29:13 Shutdown signal
+10.21 10:29:13 cleanup made
+10.21 10:29:15 radio killed
+10.21 10:29:15 shutdown signal emitted
+10.23 06:25:51 elindult
+10.23 06:25:52 starting radio: Klubradio
+2704
+10.27 07:10:56 Shutdown signal
+10.27 07:10:56 cleanup made
+10.27 07:10:58 radio killed
+10.27 07:10:58 shutdown signal emitted
+10.27 07:11:18 elindult
+10.27 07:11:18 starting radio: Klubradio
+4403
+10.27 08:24:42 Shutdown signal
+10.27 08:24:42 cleanup made
+10.27 08:24:44 radio killed
+10.27 08:24:44 shutdown signal emitted
+10.27 08:25:05 elindult
+10.27 08:25:05 starting radio: Klubradio
+1902
+10.28 08:56:48 Shutdown signal
+10.28 08:56:48 cleanup made
+10.28 08:56:50 radio killed
+10.28 08:56:50 shutdown signal emitted
+10.28 08:57:12 elindult
+10.28 08:57:12 starting radio: Klubradio
+744
+10.29 09:09:36 Shutdown signal
+10.29 09:09:36 cleanup made
+10.29 09:09:38 radio killed
+10.29 09:09:38 shutdown signal emitted
+10.29 09:09:59 elindult
+10.29 09:09:59 starting radio: Klubradio
+41944
+10.29 20:49:04 Shutdown signal
+10.29 20:49:04 cleanup made
+10.29 20:49:06 radio killed
+10.29 20:49:06 shutdown signal emitted
+10.29 20:49:28 elindult
+10.29 20:49:28 starting radio: Klubradio
+49540
+10.30 10:35:08 Shutdown signal
+10.30 10:35:08 cleanup made
+10.30 10:35:10 radio killed
+10.30 10:35:10 shutdown signal emitted
+10.30 17:50:28 elindult
+10.30 17:50:28 starting radio: Klubradio
+49651
+11.04 07:37:59 Shutdown signal
+11.04 07:37:59 cleanup made
+11.04 07:38:02 radio killed
+11.04 07:38:02 shutdown signal emitted
+11.04 07:38:22 elindult
+11.04 07:38:22 starting radio: Klubradio
+424
+11.05 07:45:29 starting radio: BBC-2
+11.05 07:45:32 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+29
+11.05 07:45:59 starting radio: BBC-3
+11.05 07:46:02 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+19
+11.05 07:46:18 starting radio: BBC-4
+11.05 07:46:22 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+9
+11.05 07:46:28 starting radio: Klasszik
+11.05 07:46:31 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+21
+11.05 07:46:49 starting radio: Klubradio
+11.05 07:46:53 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+6515
+11.05 09:35:25 starting radio: BBC-2
+11.05 09:35:29 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+9
+11.05 09:35:33 Shutdown signal
+11.05 09:35:33 cleanup made
+11.05 09:35:35 radio killed
+11.05 09:35:35 shutdown signal emitted
+11.05 09:35:55 elindult
+11.05 09:35:55 starting radio: BBC-2
+43469
+11.05 21:40:27 starting radio: BBC-3
+11.05 21:40:30 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+9
+11.05 21:40:36 starting radio: BBC-4
+11.05 21:40:39 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+73
+11.05 21:41:50 starting radio: Klasszik
+11.05 21:41:53 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+11.05 21:41:58 starting radio: Klubradio
+11.05 21:42:02 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+9
+11.05 21:42:08 starting radio: BBC-2
+11.05 21:42:11 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+11.05 21:42:16 starting radio: BBC-3
+11.05 21:42:20 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+9
+11.05 21:42:26 starting radio: BBC-4
+11.05 21:42:29 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+11.05 21:42:35 starting radio: Klasszik
+11.05 21:42:38 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+11.05 21:42:43 starting radio: Klubradio
+11.05 21:42:46 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+13
+11.05 21:42:56 starting radio: BBC-2
+11.05 21:43:00 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+11.05 21:43:05 starting radio: BBC-3
+11.05 21:43:08 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+14
+11.05 21:43:19 starting radio: BBC-4
+11.05 21:43:22 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+11.05 21:43:28 starting radio: Klasszik
+11.05 21:43:31 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+11.05 21:43:37 starting radio: Klubradio
+11.05 21:43:41 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+7
+11.05 21:43:43 Shutdown signal
+11.05 21:43:43 cleanup made
+11.05 21:43:45 radio killed
+11.05 21:43:45 shutdown signal emitted
+11.05 21:44:06 elindult
+11.05 21:44:06 starting radio: Klubradio
+39532
+11.07 08:43:00 starting radio: BBC-2
+11.07 08:43:04 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+193
+11.07 08:46:14 starting radio: BBC-3
+11.07 08:46:17 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+312
+11.07 08:51:25 Shutdown signal
+11.07 08:51:25 cleanup made
+11.07 08:51:27 radio killed
+11.07 08:51:27 shutdown signal emitted
+11.07 08:51:48 elindult
+11.07 08:51:48 starting radio: BBC-3
+35454
+11.07 18:42:43 Shutdown signal
+11.07 18:42:43 cleanup made
+11.07 18:42:45 radio killed
+11.07 18:42:45 shutdown signal emitted
+11.07 18:43:06 elindult
+11.07 18:43:06 starting radio: BBC-3
+8905
+11.07 21:11:31 Shutdown signal
+11.07 21:11:31 cleanup made
+11.07 21:11:33 radio killed
+11.07 21:11:33 shutdown signal emitted
+11.07 21:11:55 elindult
+11.07 21:11:55 starting radio: BBC-3
+35936
+11.08 07:10:54 starting radio: BBC-4
+11.08 07:10:57 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+10
+11.08 07:11:04 starting radio: Klasszik
+11.08 07:11:07 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+12
+11.08 07:11:16 starting radio: Klubradio
+11.08 07:11:20 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+5464
+11.08 08:42:19 Shutdown signal
+11.08 08:42:19 cleanup made
+11.08 08:42:21 radio killed
+11.08 08:42:21 shutdown signal emitted
+11.08 08:42:43 elindult
+11.08 08:42:43 starting radio: Klubradio
+50023
+11.08 22:36:27 Shutdown signal
+11.08 22:36:27 cleanup made
+11.08 22:36:29 radio killed
+11.08 22:36:29 shutdown signal emitted
+11.08 22:36:50 elindult
+11.08 22:36:50 starting radio: Klubradio
+33383
+11.09 07:53:15 starting radio: BBC-2
+11.09 07:53:18 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+28
+11.09 07:53:43 starting radio: BBC-3
+11.09 07:53:47 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+2489
+11.09 08:35:10 Shutdown signal
+11.09 08:35:10 cleanup made
+11.09 08:35:12 radio killed
+11.09 08:35:12 shutdown signal emitted
+11.12 21:17:20 elindult
+11.12 21:17:20 starting radio: BBC-3
+13
+11.12 21:17:35 starting radio: BBC-4
+11.12 21:17:38 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+37536
+11.16 07:43:11 starting radio: Klasszik
+11.16 07:43:14 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+11.16 07:43:21 starting radio: Klubradio
+11.16 07:43:24 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+161
+11.16 07:46:02 starting radio: BBC-2
+11.16 07:46:05 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+115
+11.16 07:47:57 starting radio: BBC-3
+11.16 07:48:01 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+106
+11.16 07:49:44 starting radio: BBC-4
+11.16 07:49:47 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+11
+11.16 07:49:56 starting radio: Klasszik
+11.16 07:49:59 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+12
+11.16 07:50:09 starting radio: Klubradio
+11.16 07:50:12 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+3557
+11.16 08:49:24 Shutdown signal
+11.16 08:49:24 cleanup made
+11.16 08:49:26 radio killed
+11.16 08:49:26 shutdown signal emitted
+11.16 08:49:47 elindult
+11.16 08:49:47 starting radio: Klubradio
+1020
+11.18 09:06:47 Shutdown signal
+11.18 09:06:47 cleanup made
+11.18 09:06:49 radio killed
+11.18 09:06:49 shutdown signal emitted
+11.18 09:07:10 elindult
+11.18 09:07:10 starting radio: Klubradio
+41555
+11.18 20:39:46 Shutdown signal
+11.18 20:39:46 cleanup made
+11.18 20:39:48 radio killed
+11.18 20:39:48 shutdown signal emitted
+11.18 20:40:09 elindult
+11.18 20:40:09 starting radio: Klubradio
+39305
+11.19 07:35:15 Shutdown signal
+11.19 07:35:15 cleanup made
+11.19 07:35:17 radio killed
+11.19 07:35:17 shutdown signal emitted
+11.19 07:35:38 elindult
+11.19 07:35:38 starting radio: Klubradio
+2145
+11.24 08:11:24 Shutdown signal
+11.24 08:11:24 cleanup made
+11.24 08:11:26 radio killed
+11.24 08:11:26 shutdown signal emitted
+11.24 17:05:05 elindult
+11.24 17:05:05 starting radio: Klubradio
+17286
+11.24 21:53:11 Shutdown signal
+11.24 21:53:11 cleanup made
+11.24 21:53:13 radio killed
+11.24 21:53:13 shutdown signal emitted
+11.25 08:56:57 elindult
+11.25 08:56:57 starting radio: https://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+11.25 09:00:46 elindult
+11.25 09:00:46 starting radio: RNE-class
+11.25 09:11:21 elindult
+11.25 09:11:21 starting radio: RNE-class
+11.25 09:18:43 elindult
+11.25 09:18:43 starting radio: RNE-class
+11.25 09:23:26 elindult
+11.25 09:23:26 starting radio: RNE-class
+11.25 09:25:45 elindult
+11.25 09:25:45 starting radio: RNE-class
+11.25 09:27:14 elindult
+11.25 09:27:14 starting radio: RNE-class
+11.25 09:27:43 elindult
+11.25 09:27:43 starting radio: RNE-class
+11.25 09:30:57 elindult
+11.25 09:30:57 starting radio: RNE-1
+62
+11.25 09:32:02 starting radio: Klasszik
+11.25 09:32:05 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+1380
+11.25 09:55:02 starting radio: Klubradio
+11.25 09:55:05 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+8
+11.25 09:55:10 starting radio: BBC-2
+11.25 09:55:13 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+11.25 09:55:19 starting radio: BBC-3
+11.25 09:55:22 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+9
+11.25 09:55:28 starting radio: BBC-4
+11.25 09:55:31 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+11.25 09:55:37 starting radio: RNE-class
+11.25 09:55:40 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+2704
+11.25 10:40:39 Shutdown signal
+11.25 10:40:39 cleanup made
+11.25 10:40:41 radio killed
+11.25 10:40:41 shutdown signal emitted
+11.25 10:41:02 elindult
+11.25 10:41:02 starting radio: RNE-class
+5980
+11.25 12:20:44 starting radio: RNE-1
+11.25 12:20:47 started RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+1339
+11.25 12:43:01 Shutdown signal
+11.25 12:43:01 cleanup made
+11.25 12:43:03 radio killed
+11.25 12:43:03 shutdown signal emitted
+11.25 12:43:25 elindult
+11.25 12:43:25 starting radio: RNE-1
+69425
+11.26 08:00:30 Shutdown signal
+11.26 08:00:30 cleanup made
+11.26 08:00:33 radio killed
+11.26 08:00:33 shutdown signal emitted
+11.26 08:00:54 elindult
+11.26 08:00:54 starting radio: RNE-1
+19419
+11.26 13:24:35 starting radio: Klasszik
+11.26 13:24:38 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+8
+11.26 13:24:42 Shutdown signal
+11.26 13:24:42 cleanup made
+11.26 13:24:44 radio killed
+11.26 13:24:44 shutdown signal emitted
+11.26 13:25:05 elindult
+11.26 13:25:05 starting radio: Klasszik
+9
+11.26 13:25:17 starting radio: Klubradio
+11.26 13:25:20 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+15906
+11.26 17:50:24 starting radio: BBC-2
+11.26 17:50:27 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+11.26 17:50:33 starting radio: BBC-3
+11.26 17:50:36 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+9
+11.26 17:50:42 starting radio: BBC-4
+11.26 17:50:45 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+11.26 17:50:50 starting radio: RNE-class
+11.26 17:50:54 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+4181
+11.26 19:00:29 Shutdown signal
+11.26 19:00:29 cleanup made
+11.26 19:00:31 radio killed
+11.26 19:00:31 shutdown signal emitted
+11.27 09:17:20 elindult
+11.27 09:17:20 starting radio: BBC-2
+83276
+11.28 08:25:19 starting radio: BBC-3
+11.28 08:25:22 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+2349
+11.28 09:04:26 Shutdown signal
+11.28 09:04:26 cleanup made
+11.28 09:04:28 radio killed
+11.28 09:04:28 shutdown signal emitted
+11.29 15:17:20 elindult
+11.29 15:17:20 starting radio: Klubradio
+3723
+11.29 16:19:25 starting radio: BBC-2
+11.29 16:19:28 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+12
+11.29 16:19:37 starting radio: BBC-3
+11.29 16:19:40 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+59
+11.29 16:20:36 starting radio: BBC-4
+11.29 16:20:39 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+11
+11.29 16:20:48 starting radio: RNE-class
+11.29 16:20:51 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+15
+11.29 16:21:04 starting radio: RNE-1
+11.29 16:21:07 started RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+862
+11.29 16:35:24 Shutdown signal
+11.29 16:35:24 cleanup made
+11.29 16:35:26 radio killed
+11.29 16:35:26 shutdown signal emitted
+11.29 16:35:48 elindult
+11.29 16:35:48 starting radio: RNE-1
+12
+11.29 16:36:03 starting radio: Klasszik
+11.29 16:36:06 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+55262
+11.30 07:57:06 starting radio: Klubradio
+11.30 07:57:09 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+3764
+11.30 08:59:49 Shutdown signal
+11.30 08:59:49 cleanup made
+11.30 08:59:51 radio killed
+11.30 08:59:51 shutdown signal emitted
+11.30 09:00:11 elindult
+11.30 09:00:12 starting radio: Klubradio
+28345
+11.30 16:52:39 starting radio: BBC-2
+11.30 16:52:42 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+515
+11.30 17:01:12 Shutdown signal
+11.30 17:01:12 cleanup made
+11.30 17:01:14 radio killed
+11.30 17:01:14 shutdown signal emitted
+11.30 17:01:35 elindult
+11.30 17:01:35 starting radio: BBC-2
+54854
+12.01 08:15:51 starting radio: BBC-3
+12.01 08:15:55 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+11
+12.01 08:16:03 starting radio: BBC-4
+12.01 08:16:07 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+672
+12.01 08:27:14 Shutdown signal
+12.01 08:27:14 cleanup made
+12.01 08:27:16 radio killed
+12.01 08:27:16 shutdown signal emitted
+12.01 08:27:37 elindult
+12.01 08:27:37 starting radio: BBC-4
+84182
+12.02 07:50:40 Shutdown signal
+12.02 07:50:40 cleanup made
+12.02 07:50:42 radio killed
+12.02 07:50:42 shutdown signal emitted
+12.02 07:51:03 elindult
+12.02 07:51:03 starting radio: BBC-4
+84618
+12.03 07:21:23 starting radio: RNE-class
+12.03 07:21:26 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+8
+12.03 07:21:31 starting radio: RNE-1
+12.03 07:21:35 started RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+9
+12.03 07:21:41 starting radio: Klasszik
+12.03 07:21:45 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+10
+12.03 07:21:52 starting radio: Klubradio
+12.03 07:21:55 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+22
+12.03 07:22:15 starting radio: BBC-2
+12.03 07:22:18 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+8
+12.03 07:22:23 starting radio: BBC-3
+12.03 07:22:26 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+10
+12.03 07:22:34 starting radio: BBC-4
+12.03 07:22:37 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+12.03 07:22:42 starting radio: RNE-class
+12.03 07:22:46 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+8
+12.03 07:22:51 starting radio: RNE-1
+12.03 07:22:54 started RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+10
+12.03 07:23:01 starting radio: Klasszik
+12.03 07:23:05 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+12.03 07:23:11 starting radio: Klubradio
+12.03 07:23:14 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+4634
+12.03 08:40:23 Shutdown signal
+12.03 08:40:23 cleanup made
+12.03 08:40:25 radio killed
+12.03 08:40:25 shutdown signal emitted
+12.03 08:40:46 elindult
+12.03 08:40:46 starting radio: Klubradio
+27569
+12.03 16:20:15 Shutdown signal
+12.03 16:20:15 cleanup made
+12.03 16:20:17 radio killed
+12.03 16:20:17 shutdown signal emitted
+12.03 16:20:38 elindult
+12.03 16:20:38 starting radio: Klubradio
+60846
+12.04 09:14:47 starting radio: BBC-2
+12.04 09:14:50 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+11
+12.04 09:14:58 starting radio: BBC-3
+12.04 09:15:01 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+11
+12.04 09:15:09 starting radio: BBC-4
+12.04 09:15:12 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+8
+12.04 09:15:18 starting radio: RNE-class
+12.04 09:15:21 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+14
+12.04 09:15:33 starting radio: RNE-1
+12.04 09:15:36 started RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+10
+12.04 09:15:43 starting radio: Klasszik
+12.04 09:15:47 started Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
+9
+12.04 09:15:53 starting radio: Klubradio
+12.04 09:15:56 started Klubradio,,http://stream.klubradio.hu:8080/bpstream
+545
+12.04 09:24:58 starting radio: BBC-2
+12.04 09:25:01 started BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+500
+12.04 09:33:18 starting radio: BBC-3
+12.04 09:33:21 started BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+407
+12.04 09:40:05 starting radio: BBC-4
+12.04 09:40:08 started BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+3255
+12.04 10:34:19 Shutdown signal
+12.04 10:34:19 cleanup made
+12.04 10:34:21 radio killed
+12.04 10:34:21 shutdown signal emitted
+12.04 10:34:42 elindult
+12.04 10:34:42 starting radio: BBC-4
+81887
+12.13 09:19:29 Shutdown signal
+12.13 09:19:29 cleanup made
+12.13 09:19:31 radio killed
+12.13 09:19:31 shutdown signal emitted
+12.13 09:19:52 elindult
+12.13 09:19:52 starting radio: BBC-4
+83775
+12.14 08:36:10 starting radio: RNE-class
+12.14 08:36:13 started RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+39
+12.14 08:36:47 Shutdown signal
+12.14 08:36:47 cleanup made
+12.14 08:36:49 radio killed
+12.14 08:36:49 shutdown signal emitted
+12.14 19:53:59 elindult
+12.14 19:53:59 starting radio: Klubradio
+39162
+12.15 06:46:41 Shutdown signal
+12.15 06:46:41 cleanup made
+12.15 06:46:43 radio killed
+12.15 06:46:43 shutdown signal emitted
+12.15 06:47:04 elindult
+12.15 06:47:04 starting radio: Klubradio
+11345
+12.17 09:56:10 Shutdown signal
+12.17 09:56:10 cleanup made
+12.17 09:56:12 radio killed
+12.17 09:56:12 shutdown signal emitted
+12.17 09:56:33 elindult
+12.17 09:56:33 starting radio: Klubradio
+85194
+12.18 09:36:27 Shutdown signal
+12.18 09:36:27 cleanup made
+12.18 09:36:29 radio killed
+12.18 09:36:29 shutdown signal emitted

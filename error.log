@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/pi/radio/radio.py", line 79, in <module>
+    p = startradio(url)
+  File "/home/pi/radio/radio.py", line 50, in startradio
+    p = subprocess.Popen(["mplayer", urlparts[1], urlparts[2]])
+IndexError: list index out of range

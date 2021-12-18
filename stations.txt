@@ -1,0 +1,7 @@
+Klubradio,,http://stream.klubradio.hu:8080/bpstream
+BBC-2,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_two/format/pls.pls
+BBC-3,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_three/format/pls.pls
+BBC-4,-playlist,http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls
+RNE-class,,http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high
+RNE-1,,http://crtve-rne1-bal.cast.addradio.de/crtve/rne1/bal/mp3/high
+Klasszik,,http://www.klasszikradio.hu/klasszik.mp3
