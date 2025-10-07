@@ -12,7 +12,7 @@ import subprocess, alsaaudio
 #################  Constants  ####################
 ##################################################
 pin = 14
-stationcount = 6
+stationcount = 7
 #mplayercall = "mplayer -fs ffmpeg://"
 m = alsaaudio.Mixer("PCM")
 

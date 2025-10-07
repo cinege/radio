@@ -15,7 +15,7 @@ class S(BaseHTTPRequestHandler):
         self.end_headers()
 
     def get_radio(self, index):
-        stationcount = 6
+        stationcount = 7
         with open('/home/pi/radio/stations.txt', 'r') as f:
             stations = f.readlines()
             radiourl = stations[index % stationcount].replace("\n","")
