@@ -124,6 +124,26 @@ class RadioPlayer:
     def is_running(self):
         return self.process and self.process.poll() is None
 
+    def stream_healthy(self):
+        playback_time = self.mpv_property("playback-time")
+        eof = self.mpv_property("eof-reached")
+        paused = self.mpv_property("pause")
+
+        if playback_time is None:
+            return False
+        if eof or paused:
+            return False
+
+        # Ha minden rendben, frissítjük az utolsó egészséges időpontot
+        self.last_ok = time.time()
+        return True
+
+   def get_volume(self):
+        """Lekérdezi az aktuális hangerőt mpv-ből (0-100)"""
+        vol = self.mpv_property("volume")
+        if vol is None:
+            return 50  # alapértelmezett
+        return int(vol)
     
 
 class Watchdog(threading.Thread):
@@ -132,16 +152,19 @@ class Watchdog(threading.Thread):
         self.player = player
         self.timeout = timeout
 
-    def run(self):
+        def run(self):
         while True:
             time.sleep(10)
             if not self.player.is_running():
                 logging.warning("Player not running")
                 self.player.restart()
-            elif time.time() - self.player.last_ok > self.timeout:
-                logging.warning("Watchdog timeout exceeded")
-                self.player.restart()
+                continue
 
+            if not self.player.stream_healthy():
+                logging.warning("Stream unhealthy")
+                if time.time() - self.player.last_ok > self.timeout:
+                    logging.error("Stream stalled – restarting")
+                    self.player.restart()
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
