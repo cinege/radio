@@ -1,113 +1,227 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-import sys, traceback
-sys.stdout = open('/home/pi/radio/radio.log', 'a')
-sys.stderr = open('/home/pi/radio/error.log', 'a')
-import RPi.GPIO as GPIO
-import time, os, datetime
-from datetime import timedelta
-import subprocess, alsaaudio
+import os
+import time
+import threading
+import subprocess
+import logging
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from gpiozero import Button
+from signal import pause
+import json
+import socket
 
-##################################################
-#################  Constants  ####################
-##################################################
-pin = 14
-stationcount = 7
-#mplayercall = "mplayer -fs ffmpeg://"
-m = alsaaudio.Mixer("PCM")
+BASE_DIR = "/home/pi/radio"
+STATIONS_FILE = f"{BASE_DIR}/stations.txt"
+STATUS_FILE = f"{BASE_DIR}/status.txt"
+LOG_FILE = f"{BASE_DIR}/radio.log"
+MPV_SOCKET = "/tmp/mpv-radio.sock"
 
-##################################################
-################# Subroutines ####################
-##################################################
+HTTP_PORT = 8080
+WATCHDOG_TIMEOUT = 180  # 3 perc
 
-def log(message):
-   print(datetime.datetime.now().strftime("%m.%d %H:%M:%S") + " " + message)
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
-def getfirstradioindex():
-   with open('/home/pi/radio/status.txt', 'r') as f:
-      try:
-         lines = f.readlines()
-         startindex = lines[0]
-      except:
-         startindex = "0" 
-   return int(startindex)
+class StationManager:
+    def __init__(self, stations_file, status_file):
+        self.stations_file = stations_file
+        self.status_file = status_file
+        self.stations = self._load_stations()
+        self.index = self._load_index()
 
-def writeradiostatus(index):
-   with open('/home/pi/radio/status.txt', 'w') as f:
-      f.write(str(index % stationcount))
+    def _load_stations(self):
+        with open(self.stations_file) as f:
+            return [line.strip() for line in f if line.strip()]
 
-def getradio(index):
-   with open('/home/pi/radio/stations.txt', 'r') as f:
-      stations = f.readlines()
-      radiourl = stations[index % stationcount].replace("\n","")
-   return radiourl
+    def _load_index(self):
+        try:
+            with open(self.status_file) as f:
+                return int(f.read().strip())
+        except Exception:
+            return 0
 
-def startradio(url):
-   urlparts = url.split(",")
-   log("starting radio: " + urlparts[0])
-   m.setvolume(0)
-   #p = subprocess.Popen(["mplayer", url], stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
-   p = subprocess.Popen(["mplayer", urlparts[1], urlparts[2]])
-   time.sleep(1.2)
-   for i in range(20):
-      m.setvolume(i*5)
-      time.sleep(0.1)
-   return p
+    def save_index(self):
+        with open(self.status_file, "w") as f:
+            f.write(str(self.index))
 
-def killradio(proc):
-   try:
-      proc.kill()
-      time.sleep(1)
-   except:
-      log("nem sikerult a process lezarasa")
-   os.system("pkill -9 mplayer")
-   time.sleep(1)
+    def get_url(self):
+        _, url = self.stations[self.index].split(",", 1)
+        return url
 
-##################################################
-################# Program start ##################
-##################################################
+    def next(self):
+        self.index = (self.index + 1) % len(self.stations)
+        self.save_index()
 
-log("elindult")
+    def set(self, index: int):
+        if 0 <= index < len(self.stations):
+            self.index = index
+            self.save_index()
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(pin,GPIO.IN,pull_up_down=GPIO.PUD_UP)
+class RadioPlayer:
+    def __init__(self, station_manager):
+        self.station_manager = station_manager
+        self.process = None
+        self.last_ok = time.time()
+        self.lock = threading.Lock()
 
-timestamp_old = datetime.datetime.now()
-radio = getfirstradioindex()
+    def mpv_property(self, prop):
+       try:
+           with socket.socket(socket.AF_UNIX) as s:
+               s.connect(MPV_SOCKET)
+               s.sendall(json.dumps({
+                   "command": ["get_property", prop]
+               }).encode() + b"\n")
+   
+               data = s.recv(1024)
+               response = json.loads(data.decode())
+               return response.get("data")
+       except Exception:
+           return None
 
-url = getradio(radio)
-p = startradio(url)
-while True: #infinite loop
-   if GPIO.input(pin) == 0: #ranyomott
-        kilep = False
-        time.sleep(1.3)
-        for i in range(10):
-           if GPIO.input(pin) == 0:
-              kilep = True
-              break
-           time.sleep(0.1)
-        timestamp = datetime.datetime.now()
-        delta = (timestamp - timestamp_old).seconds
-        print (delta)
-        if not kilep:
-           radio += 1
-           writeradiostatus(radio)
-           url = getradio(radio)
-           killradio(p)
-           p = startradio(url)
-           log("started " + url)
-           timestamp_old = timestamp
-           time.sleep(0.5) # varj 0.5 masodpercet 
-        else:
-           log("Shutdown signal")
-           GPIO.cleanup()
-           # os.system("shutdown now -h") #shut down the Pi -h is or -r will reset
-           log("cleanup made")
-           killradio(p)
-           log("radio killed")
-           try:
-              p = subprocess.Popen(["/sbin/shutdown","-h","now"])
-           except:
-              log(traceback.format_exc())
-           log("shutdown signal emitted")
-   time.sleep(0.1)
+    def start(self):
+          with self.lock:
+              self.stop()
+      
+              if os.path.exists(MPV_SOCKET):
+                  os.remove(MPV_SOCKET)
+      
+              url = self.station_manager.get_url()
+              logging.info(f"Starting stream: {url}")
+      
+              self.process = subprocess.Popen(
+                  [
+                      "mpv",
+                      "--no-video",
+                      "--audio-device=alsa",
+                      "--volume=50",
+                      "--input-ipc-server=" + MPV_SOCKET,
+                      url
+                  ],
+                  stdout=subprocess.DEVNULL,
+                  stderr=subprocess.DEVNULL
+              )
+      
+              self.last_ok = time.time()
+
+
+    def stop(self):
+        if self.process and self.process.poll() is None:
+            logging.info("Stopping player")
+            self.process.terminate()
+            try:
+                self.process.wait(timeout=3)
+            except subprocess.TimeoutExpired:
+                self.process.kill()
+
+    def restart(self):
+        logging.warning("Restarting stream")
+        self.start()
+
+    def is_running(self):
+        return self.process and self.process.poll() is None
+
+    
+
+class Watchdog(threading.Thread):
+    def __init__(self, player, timeout):
+        super().__init__(daemon=True)
+        self.player = player
+        self.timeout = timeout
+
+    def run(self):
+        while True:
+            time.sleep(10)
+            if not self.player.is_running():
+                logging.warning("Player not running")
+                self.player.restart()
+            elif time.time() - self.player.last_ok > self.timeout:
+                logging.warning("Watchdog timeout exceeded")
+                self.player.restart()
+
+
+class RequestHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(str(self.server.station_manager.index).encode())
+
+    def do_POST(self):
+        length = int(self.headers.get("Content-Length", 0))
+        msg = self.rfile.read(length).decode().strip()
+
+        logging.info(f"POST received: {msg}")
+
+        if msg == "100":
+            os.system("shutdown -h now")
+        elif msg == "200":
+            os.system("shutdown -r now")
+        elif msg.isdigit():
+            idx = int(msg)
+            self.server.station_manager.set(idx)
+            self.server.player.restart()
+
+        self.send_response(200)
+        self.end_headers()
+
+class RadioHTTPServer(HTTPServer):
+    def __init__(self, addr, handler, station_manager, player):
+        super().__init__(addr, handler)
+        self.station_manager = station_manager
+        self.player = player
+
+class GPIOHandler(threading.Thread):
+    def __init__(self, station_manager, player, pin=17, hold_time=2):
+        super().__init__(daemon=True)
+        self.station_manager = station_manager
+        self.player = player
+
+        self.button = Button(pin, hold_time=hold_time)
+        self.button.when_pressed = self.short_press
+        self.button.when_held = self.long_press
+
+        logging.info(f"GPIO button initialized on pin {pin}")
+
+    def short_press(self):
+        logging.info("GPIO short press")
+        self.station_manager.next()
+        self.player.restart()
+
+    def long_press(self):
+        logging.warning("GPIO long press – shutdown")
+        os.system("shutdown -h now")
+
+    def run(self):
+        pause()  # eseményvezérelt, nem terheli a CPU-t
+
+
+def main():
+    os.makedirs(BASE_DIR, exist_ok=True)
+
+    station_manager = StationManager(STATIONS_FILE, STATUS_FILE)
+    player = RadioPlayer(station_manager)
+    player.start()
+
+    watchdog = Watchdog(player, WATCHDOG_TIMEOUT)
+    watchdog.start()
+
+    gpio = GPIOHandler(station_manager, player, pin=17, hold_time=2)
+    gpio.start()
+
+    server = RadioHTTPServer(
+        ("", HTTP_PORT),
+        RequestHandler,
+        station_manager,
+        player
+    )
+
+    logging.info("Radio server started")
+    server.serve_forever()
+
+
+if __name__ == "__main__":
+    main()
+
